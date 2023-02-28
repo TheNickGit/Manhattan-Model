@@ -34,6 +34,9 @@ internal class RoadNetwork
             CreateCar();
     }
 
+    /// <summary>
+    /// Generate a random car an put it in the road network.
+    /// </summary>
     public void CreateCar()
     {
         int xCoor = Program.random.Next(xLength);

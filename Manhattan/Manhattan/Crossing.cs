@@ -1,9 +1,6 @@
 ﻿
 internal class Crossing
 {
-
-    // functionaliteit van de stoplichten
-    // Bewegen auto's 
     Random random;
 
     public LinkedList<Car> incN, incE, incS, incW;
@@ -18,6 +15,9 @@ internal class Crossing
         incW = new LinkedList<Car>();
     }
 
+    /// <summary>
+    /// Add a car at a determined incoming list.
+    /// </summary>
     public void AddCar(Car car, int xDist, int yDist)
     {
         // Exception: only moving N or S
@@ -97,18 +97,50 @@ internal class Crossing
         }
     }
 
+    /// <summary>
+    /// Update the crossing.
+    /// </summary>
     public void Update()
     {
+        if (incN.Count > 0)
+            UpdateInc(incN);
+        if (incE.Count > 0)
+            UpdateInc(incE);
+        if (incS.Count > 0)
+            UpdateInc(incS);
         if (incW.Count > 0)
+            UpdateInc(incW);      
+    }
+
+    /// <summary>
+    /// Update the incoming traffic lists.
+    /// </summary>
+    private void UpdateInc(LinkedList<Car> incList)
+    {
+        Car car = incList.First();
+        incList.RemoveFirst();
+
+        if (car.route.route.Count == 0)
+            return;
+
+        Route.direction dir = car.route.route.First();
+        car.route.route.RemoveFirst();
+
+        switch (dir)
         {
-            Car car = incW.First();
-            incW.RemoveFirst();
-
-            if (neiE != null)
-                car.outgoing = neiE.incW;
+            case Route.direction.N:
+                neiN.incS.AddLast(car);
+                break;
+            case Route.direction.E:
+                neiE.incW.AddLast(car);
+                break;
+            case Route.direction.S:
+                neiS.incN.AddLast(car);
+                break;
+            case Route.direction.W:
+                neiW.incE.AddLast(car);
+                break;
         }
-
-        
     }
 
     /// <summary>

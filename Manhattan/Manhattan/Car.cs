@@ -5,22 +5,15 @@ internal class Car
 {
     Crossing startlocation;
     Crossing destination;
-    public Route route;
+    public Route route = new Route();
 
     public LinkedList<Car> outgoing;
-
-    Stopwatch stopwatch = new Stopwatch();
-    public long time;
-    
-    // Data voor tijd etc.
     
 
     public Car(int xDistance, int yDistance)
     {
         Program.cars.Add(this);
         CalculateRoute(xDistance, yDistance);
-
-        stopwatch.Start();
         
     }
 
@@ -31,7 +24,7 @@ internal class Car
     {
         while (xDistance != 0 && yDistance != 0)
         {
-            float chance = Math.Abs(xDistance/ (xDistance+yDistance));
+            float chance = (Math.Abs(xDistance)/ (Math.Abs(xDistance) + Math.Abs(yDistance)));
 
             if (Program.random.NextDouble() < chance)
             {
@@ -73,14 +66,5 @@ internal class Car
             outgoing = null;
         }
     }
-
-    public void Finish()
-    {
-        stopwatch.Stop();
-        time = stopwatch.ElapsedMilliseconds;
-    } 
-
-
-    // Houd route bij en wordt voortbewogen
 }
 
