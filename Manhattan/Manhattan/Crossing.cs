@@ -6,33 +6,114 @@ internal class Crossing
     // Bewegen auto's 
     Random random;
 
-    List<Car> incN, incE, incS, incW;
+    public LinkedList<Car> incN, incE, incS, incW;
+    public Crossing neiN, neiE, neiS, neiW;
 
     public Crossing(Random random)
     {
         this.random = random;
-        incN = new List<Car>();
-        incE = new List<Car>();
-        incS= new List<Car>();
-        incW = new List<Car>();
+        incN = new LinkedList<Car>();
+        incE = new LinkedList<Car>();
+        incS= new LinkedList<Car>();
+        incW = new LinkedList<Car>();
+    }
 
-
-        for (int i = 0; i < 4; i++)
+    public void AddCar(Car car, int xDist, int yDist)
+    {
+        // Exception: only moving N or S
+        if (xDist == 0)
         {
-            for (int j = 0; j < random.Next(10); j++)
+            double randomNum = Program.random.NextDouble();
+
+            if (randomNum <= 0.33)
+                incW.AddLast(car);
+            else if (randomNum <= 0.66)
+                incE.AddLast(car);
+            else
             {
-                if (i == 0)
-                    incN.Add(new Car());
-                if (i == 1)
-                    incE.Add(new Car());
-                if (i == 2)
-                    incW.Add(new Car());
-                if (i == 3)
-                    incS.Add(new Car());
+                if (yDist > 0)
+                    incN.AddLast(car);
+                else
+                    incS.AddLast(car);
+            }
+        }
+
+        // Exception: only moving E or W
+        if (yDist == 0)
+        {
+            double randomNum = Program.random.NextDouble();
+
+            if (randomNum <= 0.33)
+                incN.AddLast(car);
+            else if (randomNum <= 0.66)
+                incS.AddLast(car);
+            else
+            {
+                if (xDist > 0)
+                    incW.AddLast(car);
+                else
+                    incE.AddLast(car);
+            }
+        }
+        
+        // Normal: goes in two directions
+        if (xDist > 0)
+        {
+            if (yDist > 0)
+            {
+                double randomNum = Program.random.NextDouble();
+                if (randomNum < 0.5)
+                    incN.AddLast(car);
+                else
+                    incW.AddLast(car);
+            }
+            else
+            {
+                double randomNum = Program.random.NextDouble();
+                if (randomNum < 0.5)
+                    incS.AddLast(car);
+                else
+                    incW.AddLast(car);
+            }
+        }
+        else
+        {
+            if (yDist > 0)
+            {
+                double randomNum = Program.random.NextDouble();
+                if (randomNum < 0.5)
+                    incN.AddLast(car);
+                else
+                    incE.AddLast(car);
+            }
+            else
+            {
+                double randomNum = Program.random.NextDouble();
+                if (randomNum < 0.5)
+                    incS.AddLast(car);
+                else
+                    incE.AddLast(car);
             }
         }
     }
 
+    public void Update()
+    {
+        if (incW.Count > 0)
+        {
+            Car car = incW.First();
+            incW.RemoveFirst();
+
+            if (neiE != null)
+                car.outgoing = neiE.incW;
+        }
+
+        
+    }
+
+    /// <summary>
+    /// Print (a part of) a crossing.
+    /// </summary>
     public void Print(int version)
     {
         switch (version)

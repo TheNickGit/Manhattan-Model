@@ -2,16 +2,44 @@
 class Program
 {
     // Config
-    static Random random = new Random(353230932);
+    public static Random random = new Random(353230932);
+    public static int numberOfCars = 100;
+    public static int xLength = 5;
+    public static int yLength = 1;
 
 
+    // Property
+    static RoadNetwork network;
+    static bool finished;
+    static int iteration = 0;
+    public static List<Car> cars = new List<Car>();
+
+    /// <summary>
+    /// Main method.
+    /// </summary>
     static void Main()
     {
         // Doet zooi.
-        
-        RoadNetwork network= new RoadNetwork(5, 4, random);
-        network.Print();
+        network = new RoadNetwork(xLength, yLength);
+        Iteration();
+        //network.Print();
     }
+
+    /// <summary>
+    /// Perform an iteration.
+    /// </summary>
+    static void Iteration()
+    {
+        Console.WriteLine(iteration++);
+        network.Print();
+
+        // do updates
+        network.Update();
+
+        Console.ReadLine();
+        Iteration();
+    }
+
 }
 
 
