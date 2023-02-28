@@ -1,0 +1,15 @@
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\Manhattan.csproj.AssemblyReference.cache
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\Manhattan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\Manhattan.AssemblyInfoInputs.cache
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\Manhattan.AssemblyInfo.cs
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\Manhattan.csproj.CoreCompileInputs.cache
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\bin\Debug\net6.0\Manhattan.exe
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\bin\Debug\net6.0\Manhattan.deps.json
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\bin\Debug\net6.0\Manhattan.runtimeconfig.json
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\bin\Debug\net6.0\Manhattan.dll
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\bin\Debug\net6.0\Manhattan.pdb
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\Manhattan.dll
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\refint\Manhattan.dll
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\Manhattan.pdb
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\Manhattan.genruntimeconfig.cache
+C:\Users\nvrie\OneDrive\Documenten\Git Repositories\manhattan\Manhattan\Manhattan\obj\Debug\net6.0\ref\Manhattan.dll
