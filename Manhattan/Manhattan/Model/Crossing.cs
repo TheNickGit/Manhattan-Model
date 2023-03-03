@@ -78,7 +78,7 @@ internal class Crossing
         }
 
         // Exception: only moving E or W
-        if (yDist == 0)
+        else if (yDist == 0)
         {
             double randomNum = Program.random.NextDouble();
 
@@ -106,7 +106,7 @@ internal class Crossing
         }
         
         // Normal: goes in two directions
-        if (xDist > 0)
+        else if (xDist > 0)
         {
             if (yDist > 0)
             {

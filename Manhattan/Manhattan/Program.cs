@@ -11,7 +11,7 @@ class Program
     // Property
     static RoadNetwork network;
     static bool finished;
-    static int iteration = 0;
+    public static int iteration = 0;
     public static List<Car> cars = new List<Car>();
 
     /// <summary>

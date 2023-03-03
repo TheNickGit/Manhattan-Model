@@ -3,18 +3,14 @@ using System.Diagnostics;
 
 internal class Car
 {
-    Crossing startlocation;
-    Crossing destination;
     public Route route = new Route();
-
-    public LinkedList<Car> outgoing;
-    
+    int routeLength = 0;    
 
     public Car(int xDistance, int yDistance)
     {
         Program.cars.Add(this);
+        routeLength = Math.Abs(xDistance) + Math.Abs(yDistance);
         CalculateRoute(xDistance, yDistance);
-        
     }
 
     /// <summary>
@@ -25,7 +21,7 @@ internal class Car
         route.Add(Route.direction.None);
         while (xDistance != 0 && yDistance != 0)
         {
-            float chance = (Math.Abs(xDistance)/ (Math.Abs(xDistance) + Math.Abs(yDistance)));
+            float chance = Math.Abs(xDistance)/ (Math.Abs(xDistance) + Math.Abs(yDistance));
 
             if (Program.random.NextDouble() < chance)
             {
@@ -61,11 +57,13 @@ internal class Car
     /// </summary>
     public void Update()
     {
-        if (outgoing != null)
+
+        // Delete car from sim and broadcast stats.
+        if (route.route.Count <= 1)
         {
-            outgoing.AddLast(this);
-            outgoing = null;
+            RoadNetwork.carsToRemove.Add(this);
         }
+
     }
 }
 

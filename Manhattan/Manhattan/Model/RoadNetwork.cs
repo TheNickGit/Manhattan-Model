@@ -7,6 +7,7 @@ internal class RoadNetwork
     Crossing[,] network;
     int xLength, yLength;
     List<Car> cars = Program.cars;
+    public static List<Car> carsToRemove = new List<Car>();
 
     public RoadNetwork(int xin, int yin)
     {
@@ -66,7 +67,9 @@ internal class RoadNetwork
                 network[x,y].Update();
         foreach (Car car in cars)
             car.Update();
-
+        foreach (Car car in carsToRemove)
+            cars.Remove(car);
+        carsToRemove.Clear();
     }
 
     /// <summary>
@@ -103,5 +106,7 @@ internal class RoadNetwork
             //Console.WriteLine("|" + "\n|");
             Console.WriteLine("\n");
         }
+
+        Console.WriteLine("Cars: " + cars.Count);
     }
 }
