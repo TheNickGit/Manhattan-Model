@@ -22,6 +22,7 @@ internal class Car
     /// </summary>
     private void CalculateRoute(int xDistance, int yDistance)
     {
+        route.Add(Route.direction.None);
         while (xDistance != 0 && yDistance != 0)
         {
             float chance = (Math.Abs(xDistance)/ (Math.Abs(xDistance) + Math.Abs(yDistance)));

@@ -1,7 +1,7 @@
 ﻿
 internal class Route
 {
-    public enum direction { N, E, S, W }
+    public enum direction { None, N, E, S, W }
 
     public LinkedList<direction> route = new LinkedList<direction>();
 

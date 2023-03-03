@@ -30,6 +30,7 @@ class Program
     /// </summary>
     static void Iteration()
     {
+        Console.Clear();
         Console.WriteLine(iteration++);
         network.Print();
 

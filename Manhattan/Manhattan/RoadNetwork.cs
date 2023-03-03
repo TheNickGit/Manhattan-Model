@@ -15,7 +15,7 @@ internal class RoadNetwork
         yLength = yin;
         for (int y = 0; y < yLength; y++)
             for (int x = 0; x < xLength; x++)
-                network[x, y] = new Crossing(Program.random);
+                network[x, y] = new Crossing();
 
         for (int y = 0; y < yLength; y++)
             for (int x = 0; x < xLength; x++)
@@ -79,9 +79,9 @@ internal class RoadNetwork
             //Console.Write("|");
             for (int x = 0; x < xLength; x++)
             {
-                Console.Write("  [");
+                Console.Write("    [");
                 network[x, y].Print(0);
-                Console.Write("]  ");
+                Console.Write("]    ");
             }
             Console.WriteLine("");
             //Console.Write("|");
@@ -95,9 +95,9 @@ internal class RoadNetwork
             //Console.Write("|");
             for (int x = 0; x < xLength; x++)
             {
-                Console.Write("  [");
+                Console.Write("    [");
                 network[x, y].Print(2);
-                Console.Write("]  ");
+                Console.Write("]    ");
             }
 
             //Console.WriteLine("|" + "\n|");

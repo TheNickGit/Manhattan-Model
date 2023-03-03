@@ -1,18 +1,46 @@
 ﻿
 internal class Crossing
 {
-    Random random;
-
-    public LinkedList<Car> incN, incE, incS, incW;
+    private Dictionary<LinkedList<Car>, bool> incomingMap;
+    public LinkedList<Car> inNtoE, inNtoS, inNtoW,
+        inEtoN, inEtoW, inEtoS,
+        inStoN, inStoW, inStoE,
+        inWtoN, inWtoE, inWtoS;
     public Crossing neiN, neiE, neiS, neiW;
+    public int trafficLightTime = 0;
+    public Route.direction direction = Route.direction.W;
 
-    public Crossing(Random random)
+    public Crossing()
     {
-        this.random = random;
-        incN = new LinkedList<Car>();
-        incE = new LinkedList<Car>();
-        incS= new LinkedList<Car>();
-        incW = new LinkedList<Car>();
+        inNtoE = new LinkedList<Car>();
+        inNtoS = new LinkedList<Car>();
+        inNtoW = new LinkedList<Car>();
+        inEtoN = new LinkedList<Car>();
+        inEtoW = new LinkedList<Car>();
+        inEtoS = new LinkedList<Car>();
+        inStoN = new LinkedList<Car>();
+        inStoW = new LinkedList<Car>();
+        inStoE = new LinkedList<Car>();
+        inWtoN = new LinkedList<Car>();
+        inWtoE = new LinkedList<Car>();
+        inWtoS = new LinkedList<Car>();
+
+        incomingMap = new Dictionary<LinkedList<Car>, bool>
+        {
+            { inNtoS, false },
+            { inNtoW, false },
+            { inEtoN, false },
+            { inEtoW, false },
+            { inEtoS, false },
+            { inNtoE, false },
+            { inStoN, false },
+            { inStoW, false },
+            { inStoE, false },
+            { inWtoN, false },
+            { inWtoE, false },
+            { inWtoS, false }
+        };
+
     }
 
     /// <summary>
@@ -26,15 +54,26 @@ internal class Crossing
             double randomNum = Program.random.NextDouble();
 
             if (randomNum <= 0.33)
-                incW.AddLast(car);
+            {
+                if (car.route.route.First() == Route.direction.N)
+                    inWtoN.AddLast(car);
+                else
+                    inWtoS.AddLast(car);
+            }
+                
             else if (randomNum <= 0.66)
-                incE.AddLast(car);
+            {
+                if (car.route.route.First() == Route.direction.N)
+                    inEtoN.AddLast(car);
+                else
+                    inEtoS.AddLast(car);
+            }
             else
             {
                 if (yDist > 0)
-                    incN.AddLast(car);
+                    inNtoS.AddLast(car);
                 else
-                    incS.AddLast(car);
+                    inStoN.AddLast(car);
             }
         }
 
@@ -44,15 +83,25 @@ internal class Crossing
             double randomNum = Program.random.NextDouble();
 
             if (randomNum <= 0.33)
-                incN.AddLast(car);
+            {
+                if (car.route.route.First() == Route.direction.E)
+                    inNtoE.AddLast(car);
+                else
+                    inNtoW.AddLast(car);
+            }
             else if (randomNum <= 0.66)
-                incS.AddLast(car);
+            {
+                if (car.route.route.First() == Route.direction.E)
+                    inStoE.AddLast(car);
+                else
+                    inStoW.AddLast(car);
+            }
             else
             {
                 if (xDist > 0)
-                    incW.AddLast(car);
+                    inWtoE.AddLast(car);
                 else
-                    incE.AddLast(car);
+                    inEtoW.AddLast(car);
             }
         }
         
@@ -63,17 +112,37 @@ internal class Crossing
             {
                 double randomNum = Program.random.NextDouble();
                 if (randomNum < 0.5)
-                    incN.AddLast(car);
+                {
+                    if (car.route.route.First() == Route.direction.E)
+                        inNtoE.AddLast(car);
+                    else
+                        inNtoS.AddLast(car);
+                }
                 else
-                    incW.AddLast(car);
+                {
+                    if (car.route.route.First() == Route.direction.E)
+                        inWtoE.AddLast(car);
+                    else
+                        inWtoS.AddLast(car);
+                }
             }
             else
             {
                 double randomNum = Program.random.NextDouble();
                 if (randomNum < 0.5)
-                    incS.AddLast(car);
+                {
+                    if (car.route.route.First() == Route.direction.E)
+                        inStoE.AddLast(car);
+                    else
+                        inStoN.AddLast(car);
+                }
                 else
-                    incW.AddLast(car);
+                {
+                    if (car.route.route.First() == Route.direction.E)
+                        inWtoE.AddLast(car);
+                    else
+                        inWtoN.AddLast(car);
+                }
             }
         }
         else
@@ -82,17 +151,37 @@ internal class Crossing
             {
                 double randomNum = Program.random.NextDouble();
                 if (randomNum < 0.5)
-                    incN.AddLast(car);
+                {
+                    if (car.route.route.First() == Route.direction.W)
+                        inNtoW.AddLast(car);
+                    else
+                        inNtoS.AddLast(car);
+                }
                 else
-                    incE.AddLast(car);
+                {
+                    if (car.route.route.First() == Route.direction.W)
+                        inEtoW.AddLast(car);
+                    else
+                        inEtoS.AddLast(car);
+                }
             }
             else
             {
                 double randomNum = Program.random.NextDouble();
                 if (randomNum < 0.5)
-                    incS.AddLast(car);
+                {
+                    if (car.route.route.First() == Route.direction.W)
+                        inStoW.AddLast(car);
+                    else
+                        inStoN.AddLast(car);
+                }
                 else
-                    incE.AddLast(car);
+                {
+                    if (car.route.route.First() == Route.direction.W)
+                        inEtoW.AddLast(car);
+                    else
+                        inEtoN.AddLast(car);
+                }
             }
         }
     }
@@ -102,14 +191,11 @@ internal class Crossing
     /// </summary>
     public void Update()
     {
-        if (incN.Count > 0)
-            UpdateInc(incN);
-        if (incE.Count > 0)
-            UpdateInc(incE);
-        if (incS.Count > 0)
-            UpdateInc(incS);
-        if (incW.Count > 0)
-            UpdateInc(incW);      
+        LightOnInterval();
+
+        foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+            if (entry.Value)
+                UpdateInc(entry.Key);   
     }
 
     /// <summary>
@@ -117,48 +203,110 @@ internal class Crossing
     /// </summary>
     private void UpdateInc(LinkedList<Car> incList)
     {
+        if (incList.Count == 0)
+            return;
+
         Car car = incList.First();
         incList.RemoveFirst();
 
-        if (car.route.route.Count == 0)
+        if (car.route.route.Count <= 1)
             return;
 
-        Route.direction dir = car.route.route.First();
+        Route.direction dir1 = car.route.route.First();
         car.route.route.RemoveFirst();
+        Route.direction dir2 = car.route.route.First();
 
-        switch (dir)
+        switch (dir1)
         {
             case Route.direction.N:
-                neiN.incS.AddLast(car);
+                if (dir2 == Route.direction.E || dir2 == Route.direction.None)
+                    neiN.inStoE.AddLast(car);
+                else if (dir2 == Route.direction.W)
+                    neiN.inStoW.AddLast(car);
+                else if (dir2 == Route.direction.N)
+                    neiN.inStoN.AddLast(car);
                 break;
             case Route.direction.E:
-                neiE.incW.AddLast(car);
+                if (dir2 == Route.direction.E || dir2 == Route.direction.None)
+                    neiE.inWtoE.AddLast(car);
+                else if (dir2 == Route.direction.N)
+                    neiE.inWtoN.AddLast(car);
+                else if (dir2 == Route.direction.S)
+                    neiE.inWtoS.AddLast(car);
                 break;
             case Route.direction.S:
-                neiS.incN.AddLast(car);
+                if (dir2 == Route.direction.E || dir2 == Route.direction.None)
+                    neiS.inNtoE.AddLast(car);
+                else if (dir2 == Route.direction.W)
+                    neiS.inNtoW.AddLast(car);
+                else if (dir2 == Route.direction.S)
+                    neiS.inNtoS.AddLast(car);
                 break;
             case Route.direction.W:
-                neiW.incE.AddLast(car);
+                if (dir2 == Route.direction.N || dir2 == Route.direction.None)
+                    neiW.inEtoN.AddLast(car);
+                else if (dir2 == Route.direction.W)
+                    neiW.inEtoW.AddLast(car);
+                else if (dir2 == Route.direction.S)
+                    neiW.inEtoS.AddLast(car);
                 break;
         }
     }
+
+    /// <summary>
+    /// Changes the traffic lights based on fixed time intervals.
+    /// </summary>
+    public void LightOnInterval()
+    {
+        if (trafficLightTime == 0)
+        {
+            trafficLightTime = 5;
+            if (direction == Route.direction.N) direction = Route.direction.E;
+            else if (direction == Route.direction.E) direction = Route.direction.S;
+            else if (direction == Route.direction.S) direction = Route.direction.W;
+            else if (direction == Route.direction.W) direction = Route.direction.N;
+
+            int i = 0;
+            foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+            {
+                if (i >= 0 && i < 3 && direction == Route.direction.N)
+                    incomingMap[entry.Key] = true;
+                else if (i >= 3 && i < 6 && direction == Route.direction.E)
+                    incomingMap[entry.Key] = true;
+                else if (i >= 6 && i < 9 && direction == Route.direction.S)
+                    incomingMap[entry.Key] = true;
+                else if (i >= 9 && i < 12 && direction == Route.direction.W)
+                    incomingMap[entry.Key] = true;
+                else
+                    incomingMap[entry.Key] = false;
+                i++;
+            }
+        }
+        trafficLightTime--;
+    }
+
 
     /// <summary>
     /// Print (a part of) a crossing.
     /// </summary>
     public void Print(int version)
     {
+        int count;
         switch (version)
         {
             case 0:
-                Console.Write(incN.Count);
+                count = inNtoE.Count + inNtoW.Count + inNtoS.Count;
+                Console.Write(count.ToString("D4"));
                 break;
             case 1:
-                Console.Write(incW.Count + ",");
-                Console.Write(incE.Count);
+                count = inWtoE.Count + inWtoN.Count + inWtoS.Count;
+                Console.Write(count.ToString("D4") + ", ");
+                count = inEtoW.Count + inEtoN.Count + inEtoS.Count;
+                Console.Write(count.ToString("D4"));
                 break;
             case 2:
-                Console.Write(incS.Count);
+                count = inStoW.Count + inStoN.Count + inStoE.Count;
+                Console.Write(count.ToString("D4"));
                 break;
         }
     }
