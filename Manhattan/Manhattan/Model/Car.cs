@@ -59,7 +59,7 @@ internal class Car
     {
 
         // Delete car from sim and broadcast stats.
-        if (route.route.Count == 0)
+        if (route.route.Count <= 1)
         {
             RoadNetwork.carsToRemove.Add(this);
         }
