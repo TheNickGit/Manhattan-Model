@@ -30,8 +30,6 @@ internal class Car
                 {
                     route.Add(Route.direction.E);
                     xDistance --;
-
-                    
                 }
                 else if (xDistance < 0)
                 {
@@ -51,7 +49,6 @@ internal class Car
                 {
                     route.Add(Route.direction.N);
                     yDistance ++;
-                    
                 }
             }
         }

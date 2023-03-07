@@ -61,6 +61,12 @@ internal class RoadNetwork
     /// </summary>
     public void Update()
     {
+        if (cars.Count == 0)
+        {
+            Program.finished = true;
+            return;
+        }
+
         for (int y = 0; y < yLength; y++)
             for (int x = 0; x < xLength; x++)
                 network[x,y].Update();
