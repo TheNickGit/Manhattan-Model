@@ -22,4 +22,15 @@ internal class Route
     {
         route.RemoveFirst();
     }
+
+    public void Print()
+    {
+        string str = "<";
+        foreach(direction d in route)
+        {
+            str += d.ToString() + ",";
+        }
+        str += ">";
+        Console.WriteLine(str);
+    }
 }

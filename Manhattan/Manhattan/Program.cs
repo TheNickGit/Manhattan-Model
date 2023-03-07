@@ -3,9 +3,9 @@ class Program
 {
     // Config
     public static Random random = new Random(353230932);
-    public static int numberOfCars = 100;
-    public static int xLength = 3;
-    public static int yLength = 3;
+    public static int numberOfCars = 1000;
+    public static int xLength = 10;
+    public static int yLength = 10;
 
 
     // Property
@@ -22,7 +22,6 @@ class Program
         // Doet zooi.
         network = new RoadNetwork(xLength, yLength);
         Iteration();
-        //network.Print();
     }
 
     /// <summary>

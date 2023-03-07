@@ -2,8 +2,6 @@
 
 internal class RoadNetwork
 {
-    // Houd alle kruispunten bij (en wat meta data over hoeveelheid auto's?)
-
     Crossing[,] network;
     int xLength, yLength;
     List<Car> cars = Program.cars;
@@ -108,5 +106,6 @@ internal class RoadNetwork
         }
 
         Console.WriteLine("Cars: " + cars.Count);
+        //foreach (Car car in cars) car.Print();
     }
 }

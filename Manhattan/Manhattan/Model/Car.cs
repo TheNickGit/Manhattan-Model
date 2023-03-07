@@ -18,10 +18,9 @@ internal class Car
     /// </summary>
     private void CalculateRoute(int xDistance, int yDistance)
     {
-        route.Add(Route.direction.None);
-        while (xDistance != 0 && yDistance != 0)
+        while (xDistance != 0 || yDistance != 0)
         {
-            float chance = Math.Abs(xDistance)/ (Math.Abs(xDistance) + Math.Abs(yDistance));
+            float chance = (float)Math.Abs(xDistance)/ (float)(Math.Abs(xDistance) + Math.Abs(yDistance));
 
             if (Program.random.NextDouble() < chance)
             {
@@ -29,6 +28,8 @@ internal class Car
                 {
                     route.Add(Route.direction.E);
                     xDistance --;
+
+                    
                 }
                 else if (xDistance < 0)
                 {
@@ -42,14 +43,17 @@ internal class Car
                 {
                     route.Add(Route.direction.S);
                     yDistance --;
+
                 }
                 else if (yDistance < 0)
                 {
                     route.Add(Route.direction.N);
                     yDistance ++;
+                    
                 }
             }
         }
+        route.Add(Route.direction.None);
     }
 
     /// <summary>
@@ -57,13 +61,17 @@ internal class Car
     /// </summary>
     public void Update()
     {
-
         // Delete car from sim and broadcast stats.
-        if (route.route.Count <= 1)
+        if (route.route.Count <= 0)
         {
             RoadNetwork.carsToRemove.Add(this);
         }
 
+    }
+
+    public void Print()
+    {
+        route.Print();
     }
 }
 
