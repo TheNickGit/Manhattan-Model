@@ -5,6 +5,7 @@ internal class RoadNetwork
     Crossing[,] network;
     int xLength, yLength;
     List<Car> cars = Program.cars;
+    int carID = 0;
     public static List<Car> carsToRemove = new List<Car>();
 
     public RoadNetwork(int xin, int yin)
@@ -30,13 +31,13 @@ internal class RoadNetwork
             }
 
         for (int i = 0; i < Program.numberOfCars; i++)
-            CreateCar();
+            CreateCar(carID++);
     }
 
     /// <summary>
     /// Generate a random car an put it in the road network.
     /// </summary>
-    public void CreateCar()
+    public void CreateCar(int carID)
     {
         int xCoor = Program.random.Next(xLength);
         int yCoor = Program.random.Next(yLength);
@@ -45,13 +46,13 @@ internal class RoadNetwork
 
         if (xCoor == xDest && yCoor == yDest)
         {
-            CreateCar();
+            CreateCar(carID);
             return;
         }
 
         int xDist = xDest - xCoor;
         int yDist = yDest - yCoor;
-        Car car = new Car(xDist, yDist);
+        Car car = new Car(carID, xDist, yDist);
         network[xCoor, yCoor].AddCar(car, xDist, yDist);
     }
 

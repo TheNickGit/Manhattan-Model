@@ -3,11 +3,13 @@ using System.Diagnostics;
 
 internal class Car
 {
+    int ID;
     public Route route = new Route();
-    int routeLength = 0;    
+    int routeLength = 0;
 
-    public Car(int xDistance, int yDistance)
+    public Car(int carID, int xDistance, int yDistance)
     {
+        ID = carID;
         Program.cars.Add(this);
         routeLength = Math.Abs(xDistance) + Math.Abs(yDistance);
         CalculateRoute(xDistance, yDistance);
@@ -65,6 +67,7 @@ internal class Car
         if (route.route.Count <= 0)
         {
             RoadNetwork.carsToRemove.Add(this);
+            EmitStat();
         }
 
     }
@@ -72,6 +75,11 @@ internal class Car
     public void Print()
     {
         route.Print();
+    }
+
+    public void EmitStat()
+    {
+        Program.stats.CreateCarStats(ID, Program.iteration, routeLength);
     }
 }
 

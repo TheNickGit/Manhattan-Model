@@ -3,13 +3,14 @@ class Program
 {
     // Config
     public static Random random = new Random(353230932);
-    public static int numberOfCars = 1000;
-    public static int xLength = 10;
-    public static int yLength = 10;
+    public static int numberOfCars = 10;
+    public static int xLength = 5;
+    public static int yLength = 5;
 
 
     // Property
     static RoadNetwork network;
+    public static Stats stats = new Stats();
     static bool finished;
     public static int iteration = 0;
     public static List<Car> cars = new List<Car>();
@@ -32,9 +33,13 @@ class Program
         Console.Clear();
         Console.WriteLine(iteration++);
         network.Print();
+        stats.Print();
 
         // do updates
         network.Update();
+
+
+
 
         Console.ReadLine();
         Iteration();
