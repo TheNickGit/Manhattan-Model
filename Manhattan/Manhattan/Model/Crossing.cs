@@ -210,6 +210,7 @@ internal class Crossing
         incList.RemoveFirst();
 
         if (car.route.route.Count <= 1)
+            car.route.route.Clear();
             return;
 
         Route.direction dir1 = car.route.route.First();

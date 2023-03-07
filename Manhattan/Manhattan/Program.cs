@@ -3,7 +3,7 @@ class Program
 {
     // Config
     public static Random random = new Random(353230932);
-    public static int numberOfCars = 100;
+    public static int numberOfCars = 10;
     public static int xLength = 3;
     public static int yLength = 3;
 

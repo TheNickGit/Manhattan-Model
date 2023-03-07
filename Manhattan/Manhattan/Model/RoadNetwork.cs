@@ -68,7 +68,11 @@ internal class RoadNetwork
         foreach (Car car in cars)
             car.Update();
         foreach (Car car in carsToRemove)
+        {
             cars.Remove(car);
+            Console.WriteLine("Car removed");
+        }
+ 
         carsToRemove.Clear();
     }
 
