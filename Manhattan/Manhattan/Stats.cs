@@ -1,7 +1,11 @@
 ﻿
+using System.IO;
+
 internal class Stats
 {
     public static List<StatsCarEntry> carStats = new List<StatsCarEntry>();
+    public static string path = @"C:\Users\kdkoe\OneDrive\Documents\Uni\onderzoeks methode\PROJECT\stats.txt";
+
 
     public void CreateCarStats(int ID, int travelTime, int distance)
     {
@@ -11,10 +15,19 @@ internal class Stats
 
     public void Print()
     {
-        foreach(StatsCarEntry entry in carStats)
+        using (StreamWriter writer = new StreamWriter(path))
         {
-            entry.Print();
+            foreach (StatsCarEntry entry in carStats)
+            {
+                if (entry.ID >= 200)
+                {
+                }
+                else
+                {
+                    writer.WriteLine("car ID: " + entry.ID + " | travel time: " + entry.travelTime + " | distance: " + entry.distance);
+                }
+            }
         }
+       
     }
 }
-

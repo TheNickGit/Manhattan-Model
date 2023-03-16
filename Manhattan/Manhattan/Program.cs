@@ -6,8 +6,9 @@ class Program
     public static int numberOfCars = 10000;
     public static int xLength = 10;
     public static int yLength = 10;
-    static int networkAmount = 2;
+    static int networkAmount = 4;
     static bool printMode = false;
+    
 
 
     // Property
@@ -18,6 +19,8 @@ class Program
     public static int iteration = 0;
     static int networkIteration = 0;
     public static List<Car> cars = new List<Car>();
+
+    
 
     /// <summary>
     /// Main method.
@@ -59,7 +62,7 @@ class Program
 
         if(printMode)
             Console.ReadLine();
-
+        iteration++;
         Iteration();
     }
 
@@ -69,7 +72,7 @@ class Program
         iteration = 0;
         networkIteration++;
 
-        if (networkIteration < networkAmount - 1)
+        if (networkIteration < networkAmount)
         {
             stats = statsList[networkIteration];
             network = new RoadNetwork(xLength, yLength);
@@ -81,6 +84,11 @@ class Program
     static void FinishProgram()
     {
         // TODO: Doe random statistiek zooi.
+        for(int i = 0; i < networkAmount;i++)
+        {
+             statsList[i].Print();
+        }
+
 
         Console.WriteLine("HELEMAAL KLAAR!");
         System.Environment.Exit(0);
