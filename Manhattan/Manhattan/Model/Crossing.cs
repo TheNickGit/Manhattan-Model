@@ -29,10 +29,10 @@ internal class Crossing
         {
             { inNtoS, false },
             { inNtoW, false },
+            { inNtoE, false },
             { inEtoN, false },
             { inEtoW, false },
             { inEtoS, false },
-            { inNtoE, false },
             { inStoN, false },
             { inStoW, false },
             { inStoE, false },
@@ -280,6 +280,32 @@ internal class Crossing
                 else if (i >= 6 && i < 9 && direction == Route.direction.S)
                     incomingMap[entry.Key] = true;
                 else if (i >= 9 && i < 12 && direction == Route.direction.W)
+                    incomingMap[entry.Key] = true;
+                else
+                    incomingMap[entry.Key] = false;
+                i++;
+            }
+        }
+        trafficLightTime--;
+    }
+
+    public void LightOnInterval2()
+    {
+        if (trafficLightTime == 0)
+        {
+            trafficLightTime = 5;
+            if (direction == Route.direction.N) direction = Route.direction.E;
+            else if (direction == Route.direction.E) direction = Route.direction.S;
+            else if (direction == Route.direction.S) direction = Route.direction.N;
+
+            int i = 0;
+            foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+            {
+                if (((i >= 1 && i < 3) || (i >= 7 && i < 9)) && direction == Route.direction.N)
+                    incomingMap[entry.Key] = true;
+                else if (((i >= 4 && i < 6) || (i >= 10 && i < 12)) && direction == Route.direction.E)
+                    incomingMap[entry.Key] = true;
+                else if (((i == 0 || i == 3 )|| (i == 6 || i == 9 ))&& direction == Route.direction.S)
                     incomingMap[entry.Key] = true;
                 else
                     incomingMap[entry.Key] = false;
