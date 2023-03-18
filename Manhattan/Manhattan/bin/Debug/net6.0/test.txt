@@ -1,0 +1,11 @@
+car ID: 13 | travel time: 5 | distance: 1
+car ID: 2 | travel time: 15 | distance: 1
+car ID: 7 | travel time: 15 | distance: 2
+car ID: 12 | travel time: 15 | distance: 2
+car ID: 4 | travel time: 16 | distance: 1
+car ID: 19 | travel time: 16 | distance: 1
+car ID: 0 | travel time: 20 | distance: 2
+car ID: 1 | travel time: 20 | distance: 2
+car ID: 3 | travel time: 20 | distance: 3
+car ID: 8 | travel time: 20 | distance: 2
+car ID: 18 | travel time: 20 | distance: 3

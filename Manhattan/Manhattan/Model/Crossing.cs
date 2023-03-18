@@ -1,6 +1,7 @@
 ﻿
 internal class Crossing
 {
+
     private Dictionary<LinkedList<Car>, bool> incomingMap;
     public LinkedList<Car> inNtoE, inNtoS, inNtoW,
         inEtoN, inEtoW, inEtoS,
@@ -191,9 +192,27 @@ internal class Crossing
     /// </summary>
     public void Update()
     {
-        //LightStraightAndRight();
-        LightAllLeft();
+        switch (Program.lightsMode)
+        {
+            case Program.lightsTactic.adaptive:
+                //do shit
+                break;
+            case Program.lightsTactic.hardcode1D:
+                if (trafficLightTime <= 0)
+                {
+                    trafficLightTime = Program.lightInterval;
+                    if (direction == Route.direction.N) direction = Route.direction.E;
+                    else if (direction == Route.direction.E) direction = Route.direction.S;
+                    else if (direction == Route.direction.S) direction = Route.direction.W;
+                    else if (direction == Route.direction.W) direction = Route.direction.N;
 
+                    LightOneDirection1R();
+                }
+                trafficLightTime--;
+                break;
+        }
+
+        // Update all lanes where the trafic light is set to true
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             if (entry.Value)
                 UpdateInc(entry.Key);   
@@ -259,82 +278,117 @@ internal class Crossing
     }
 
     /// <summary>
-    /// Changes the traffic lights based on fixed time intervals.
+    /// Changes the traffic lights, opting to let all traffic in one direction pass (and one direction to right).
     /// </summary>
-    public void LightOnInterval()
-    {
-        if (trafficLightTime == 0)
-        {
-            trafficLightTime = 5;
-            if (direction == Route.direction.N) direction = Route.direction.E;
-            else if (direction == Route.direction.E) direction = Route.direction.S;
-            else if (direction == Route.direction.S) direction = Route.direction.W;
-            else if (direction == Route.direction.W) direction = Route.direction.N;
-
-            int i = 0;
-            foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
-            {
-                if (i >= 0 && i < 3 && direction == Route.direction.N)
-                    incomingMap[entry.Key] = true;
-                else if (i >= 3 && i < 6 && direction == Route.direction.E)
-                    incomingMap[entry.Key] = true;
-                else if (i >= 6 && i < 9 && direction == Route.direction.S)
-                    incomingMap[entry.Key] = true;
-                else if (i >= 9 && i < 12 && direction == Route.direction.W)
-                    incomingMap[entry.Key] = true;
-                else
-                    incomingMap[entry.Key] = false;
-                i++;
-            }
-        }
-        trafficLightTime--;
-    }
-
-    public void LightStraightAndRight()
-    {
-        if (trafficLightTime == 0)
-        {
-            trafficLightTime = 5;
-            ///
-            if (direction == Route.direction.N || direction == Route.direction.S)
-                direction = Route.direction.E;
-            else if (direction == Route.direction.E || direction == Route.direction.W)
-                direction = Route.direction.S;
-            ///
-
-            if (direction == Route.direction.N || direction == Route.direction.S)
-            {
-                foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
-                    incomingMap[entry.Key] = false;
-                incomingMap[inNtoW] = true;
-                incomingMap[inNtoS] = true;
-                incomingMap[inStoN] = true;
-                incomingMap[inStoE] = true;
-
-            }
-            else if (direction == Route.direction.E || direction == Route.direction.W)
-            {
-                foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
-                    incomingMap[entry.Key] = false;
-                incomingMap[inEtoW] = true;
-                incomingMap[inEtoN] = true;
-                incomingMap[inWtoE] = true;
-                incomingMap[inWtoS] = true;
-            }
-        }
-        trafficLightTime--;
-    }
-
-    public void LightAllLeft()
+    public void LightOneDirection1R()
     {
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             incomingMap[entry.Key] = false;
-        incomingMap[inNtoE] = true;
-        incomingMap[inEtoS] = true;
-        incomingMap[inStoW] = true;
-        incomingMap[inWtoN] = true;
+        if (direction == Route.direction.N)
+        {
+            incomingMap[inNtoW] = true;
+            incomingMap[inNtoS] = true;
+            incomingMap[inNtoE] = true;
+            incomingMap[inEtoN] = true;
+        }
+        else if (direction == Route.direction.E)
+        {
+            incomingMap[inEtoN] = true;
+            incomingMap[inEtoS] = true;
+            incomingMap[inEtoW] = true;
+            incomingMap[inStoE] = true;
+        }
+        else if (direction == Route.direction.S)
+        {
+            incomingMap[inStoN] = true;
+            incomingMap[inStoE] = true;
+            incomingMap[inStoW] = true;
+            incomingMap[inWtoS] = true;
+        }
+        else if (direction == Route.direction.W)
+        {
+            incomingMap[inWtoN] = true;
+            incomingMap[inWtoS] = true;
+            incomingMap[inWtoE] = true;
+            incomingMap[inNtoW] = true;
+        }
     }
 
+    /// <summary>
+    /// Changes the traffic lights, opting to let opposite sides go straight and right.
+    /// </summary>
+    public void LightStraightAndRight()
+    {
+        if (direction == Route.direction.N || direction == Route.direction.S)
+        {
+            foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+                incomingMap[entry.Key] = false;
+            incomingMap[inNtoW] = true;
+            incomingMap[inNtoS] = true;
+            incomingMap[inStoN] = true;
+            incomingMap[inStoE] = true;
+
+        }
+        else if (direction == Route.direction.E || direction == Route.direction.W)
+        {
+            foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+                incomingMap[entry.Key] = false;
+            incomingMap[inEtoW] = true;
+            incomingMap[inEtoN] = true;
+            incomingMap[inWtoE] = true;
+            incomingMap[inWtoS] = true;
+        }
+    }
+
+    /// <summary>
+    /// Changes the traffic lights, opting to let 3 directions go to the right and 1 to the left.
+    /// </summary>
+    public void Light3Right1Left()
+    {
+        foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+            incomingMap[entry.Key] = false;
+        if (direction == Route.direction.N)
+        {
+            incomingMap[inNtoW] = true;
+            incomingMap[inNtoE] = true;
+            incomingMap[inWtoS] = true;
+            incomingMap[inEtoN] = true;
+        }
+        else if (direction == Route.direction.E)
+        {
+            incomingMap[inEtoN] = true;
+            incomingMap[inEtoS] = true;
+            incomingMap[inStoE] = true;
+            incomingMap[inNtoW] = true;
+        }
+        else if (direction == Route.direction.S)
+        {
+            incomingMap[inStoW] = true;
+            incomingMap[inStoE] = true;
+            incomingMap[inWtoS] = true;
+            incomingMap[inEtoN] = true;
+        }
+        else if (direction == Route.direction.W)
+        {
+            incomingMap[inWtoN] = true;
+            incomingMap[inWtoS] = true;
+            incomingMap[inStoE] = true;
+            incomingMap[inNtoW] = true;
+        }
+    }
+
+    /// <summary>
+    /// Changes the traffic lights, opting to let all traffic go right.
+    /// </summary>
+    public void AllRight()
+    {
+        foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+            incomingMap[entry.Key] = false;
+        incomingMap[inNtoW] = true;
+        incomingMap[inWtoS] = true;
+        incomingMap[inStoE] = true;
+        incomingMap[inEtoN] = true;
+    }
 
     /// <summary>
     /// Print (a part of) a crossing.

@@ -3,13 +3,13 @@ class Program
 {
     // Config
     public static Random random = new Random(353230932);
-    public static int numberOfCars = 20000;
-    public static int xLength = 15;
-    public static int yLength = 15;
+    public static int numberOfCars = 20;
+    public static int xLength = 3;
+    public static int yLength = 3;
     static int networkAmount = 4;
+    public static lightsTactic lightsMode = lightsTactic.hardcode1D;
+    public static int lightInterval = 5;
     static bool printMode = true;
-    
-
 
     // Property
     static RoadNetwork network;
@@ -19,8 +19,8 @@ class Program
     public static int iteration = 0;
     static int networkIteration = 0;
     public static List<Car> cars = new List<Car>();
+    public enum lightsTactic { adaptive, hardcode1D }
 
-    
 
     /// <summary>
     /// Main method.
@@ -47,7 +47,7 @@ class Program
         if (printMode)
         {
             Console.Clear();
-            Console.WriteLine(iteration++);
+            Console.WriteLine(iteration);
             network.Print();
             stats.Print();
         }
