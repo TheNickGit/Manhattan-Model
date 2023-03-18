@@ -191,7 +191,8 @@ internal class Crossing
     /// </summary>
     public void Update()
     {
-        LightOnInterval();
+        //LightStraightAndRight();
+        LightAllLeft();
 
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             if (entry.Value)
@@ -289,30 +290,49 @@ internal class Crossing
         trafficLightTime--;
     }
 
-    public void LightOnInterval2()
+    public void LightStraightAndRight()
     {
         if (trafficLightTime == 0)
         {
             trafficLightTime = 5;
-            if (direction == Route.direction.N) direction = Route.direction.E;
-            else if (direction == Route.direction.E) direction = Route.direction.S;
-            else if (direction == Route.direction.S) direction = Route.direction.N;
+            ///
+            if (direction == Route.direction.N || direction == Route.direction.S)
+                direction = Route.direction.E;
+            else if (direction == Route.direction.E || direction == Route.direction.W)
+                direction = Route.direction.S;
+            ///
 
-            int i = 0;
-            foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+            if (direction == Route.direction.N || direction == Route.direction.S)
             {
-                if (((i >= 1 && i < 3) || (i >= 7 && i < 9)) && direction == Route.direction.N)
-                    incomingMap[entry.Key] = true;
-                else if (((i >= 4 && i < 6) || (i >= 10 && i < 12)) && direction == Route.direction.E)
-                    incomingMap[entry.Key] = true;
-                else if (((i == 0 || i == 3 )|| (i == 6 || i == 9 ))&& direction == Route.direction.S)
-                    incomingMap[entry.Key] = true;
-                else
+                foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
                     incomingMap[entry.Key] = false;
-                i++;
+                incomingMap[inNtoW] = true;
+                incomingMap[inNtoS] = true;
+                incomingMap[inStoN] = true;
+                incomingMap[inStoE] = true;
+
+            }
+            else if (direction == Route.direction.E || direction == Route.direction.W)
+            {
+                foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+                    incomingMap[entry.Key] = false;
+                incomingMap[inEtoW] = true;
+                incomingMap[inEtoN] = true;
+                incomingMap[inWtoE] = true;
+                incomingMap[inWtoS] = true;
             }
         }
         trafficLightTime--;
+    }
+
+    public void LightAllLeft()
+    {
+        foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+            incomingMap[entry.Key] = false;
+        incomingMap[inNtoE] = true;
+        incomingMap[inEtoS] = true;
+        incomingMap[inStoW] = true;
+        incomingMap[inWtoN] = true;
     }
 
 

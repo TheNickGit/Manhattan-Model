@@ -7,7 +7,7 @@ class Program
     public static int xLength = 15;
     public static int yLength = 15;
     static int networkAmount = 4;
-    static bool printMode = false;
+    static bool printMode = true;
     
 
 
