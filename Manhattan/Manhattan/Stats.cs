@@ -4,7 +4,7 @@ using System.IO;
 internal class Stats
 {
     public static List<StatsCarEntry> carStats = new List<StatsCarEntry>();
-    public static string path = @"C:\Users\kdkoe\OneDrive\Documents\Uni\onderzoeks methode\PROJECT\stats.txt";
+    public static string path = @".\test.txt";
 
 
     public void CreateCarStats(int ID, int travelTime, int distance)

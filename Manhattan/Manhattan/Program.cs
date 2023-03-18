@@ -3,11 +3,11 @@ class Program
 {
     // Config
     public static Random random = new Random(353230932);
-    public static int numberOfCars = 10000;
-    public static int xLength = 10;
-    public static int yLength = 10;
+    public static int numberOfCars = 20000;
+    public static int xLength = 15;
+    public static int yLength = 15;
     static int networkAmount = 4;
-    static bool printMode = true;
+    static bool printMode = false;
     
 
 
