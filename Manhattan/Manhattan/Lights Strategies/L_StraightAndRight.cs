@@ -32,7 +32,8 @@
     /// </summary>
     public void Perform(Route.direction direction)
     {
-        counter++;
+        Program.stats.statsCrossing.countSR++;
+
         if (direction == Route.direction.N || direction == Route.direction.S)
         {
             foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)

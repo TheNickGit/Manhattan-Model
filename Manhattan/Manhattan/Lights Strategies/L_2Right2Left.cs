@@ -5,7 +5,6 @@
     inEtoN, inEtoW, inEtoS,
     inStoN, inStoW, inStoE,
     inWtoN, inWtoE, inWtoS;
-    public int counter = 0;
 
     public L_2Right2Left(Dictionary<LinkedList<Car>, bool> incomingMap,
         LinkedList<Car> inNtoE, LinkedList<Car> inNtoS, LinkedList<Car> inNtoW,
@@ -33,7 +32,8 @@
     /// </summary>
     public void Perform(Route.direction direction)
     {
-        counter++;
+        Program.stats.statsCrossing.count2R2L++;
+
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             incomingMap[entry.Key] = false;
         if (direction == Route.direction.N || direction == Route.direction.S)

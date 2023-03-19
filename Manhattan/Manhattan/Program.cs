@@ -1,4 +1,5 @@
-﻿
+﻿using System.IO;
+
 class Program
 {
     // Config
@@ -6,7 +7,7 @@ class Program
     public static int numberOfCars = 20000;
     public static int xLength = 10;
     public static int yLength = 10;
-    static int networkAmount = 1;
+    static int networkAmount = 2;
     public static lightsTactic lightsMode = lightsTactic.adaptive;
     public static int lightInterval = 5;
     public static int delay = 3;
@@ -29,6 +30,9 @@ class Program
     /// </summary>
     static void Main()
     {
+        File.Create(@".\statsCars.txt").Dispose();
+        File.Create(@".\statsCrossings.txt").Dispose();
+
         for (int i = 0; i < networkAmount; i++)
         {
             statsList[i] = new Stats();
@@ -71,6 +75,7 @@ class Program
     static void FinishNetwork()
     {
         finished = false;
+        stats.statsCrossing.iterations = iteration;
         iteration = 0;
         networkIteration++;
 

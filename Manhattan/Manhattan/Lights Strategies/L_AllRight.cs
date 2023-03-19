@@ -7,7 +7,6 @@ class L_AllRight
     inEtoN, inEtoW, inEtoS,
     inStoN, inStoW, inStoE,
     inWtoN, inWtoE, inWtoS;
-    public int counter = 0;
 
     public L_AllRight(Dictionary<LinkedList<Car>, bool> incomingMap,
         LinkedList<Car> inNtoE, LinkedList<Car> inNtoS, LinkedList<Car> inNtoW,
@@ -35,7 +34,8 @@ class L_AllRight
     /// </summary>
     public void Perform()
     {
-        counter++;
+        Program.stats.statsCrossing.count4R++;
+
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             incomingMap[entry.Key] = false;
         incomingMap[inNtoW] = true;
