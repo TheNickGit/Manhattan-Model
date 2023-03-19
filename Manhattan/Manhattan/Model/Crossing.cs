@@ -1,5 +1,4 @@
-﻿
-internal class Crossing
+﻿internal class Crossing
 {
 
     private Dictionary<LinkedList<Car>, bool> incomingMap;
@@ -201,6 +200,11 @@ internal class Crossing
         {
             case Program.lightsTactic.adaptive:
                 //do shit
+                break;
+            case Program.lightsTactic.adaptive1D:
+                (int, Route.direction) tuple = lights.l_OneDirection1R.Calculate();
+                direction = tuple.Item2;
+                lights.l_OneDirection1R.Perform(direction);
                 break;
             case Program.lightsTactic.hardcode1D:
                 if (trafficLightTime <= 0)

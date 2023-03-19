@@ -5,6 +5,7 @@
     inEtoN, inEtoW, inEtoS,
     inStoN, inStoW, inStoE,
     inWtoN, inWtoE, inWtoS;
+    public int counter = 0;
 
     public L_3Right1Left(Dictionary<LinkedList<Car>, bool> incomingMap,
         LinkedList<Car> inNtoE, LinkedList<Car> inNtoS, LinkedList<Car> inNtoW,
@@ -17,12 +18,12 @@
         this.inNtoS = inNtoS;
         this.inNtoW = inNtoW;
         this.inEtoN = inEtoN;
-        this.inEtoW= inEtoW;
+        this.inEtoW = inEtoW;
         this.inEtoS = inEtoS;
         this.inStoN = inStoN;
         this.inStoE = inStoE;
         this.inStoW = inStoW;
-        this.inWtoN= inWtoN;
+        this.inWtoN = inWtoN;
         this.inWtoE = inWtoE;
         this.inWtoS = inWtoS;
     }
@@ -32,6 +33,7 @@
     /// </summary>
     public void Perform(Route.direction direction)
     {
+        counter++;
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             incomingMap[entry.Key] = false;
         if (direction == Route.direction.N)

@@ -1,10 +1,13 @@
-﻿class L_AllRight
+﻿using System.Diagnostics.Metrics;
+
+class L_AllRight
 {
     private Dictionary<LinkedList<Car>, bool> incomingMap;
     public LinkedList<Car> inNtoE, inNtoS, inNtoW,
     inEtoN, inEtoW, inEtoS,
     inStoN, inStoW, inStoE,
     inWtoN, inWtoE, inWtoS;
+    public int counter = 0;
 
     public L_AllRight(Dictionary<LinkedList<Car>, bool> incomingMap,
         LinkedList<Car> inNtoE, LinkedList<Car> inNtoS, LinkedList<Car> inNtoW,
@@ -17,12 +20,12 @@
         this.inNtoS = inNtoS;
         this.inNtoW = inNtoW;
         this.inEtoN = inEtoN;
-        this.inEtoW= inEtoW;
+        this.inEtoW = inEtoW;
         this.inEtoS = inEtoS;
         this.inStoN = inStoN;
         this.inStoE = inStoE;
         this.inStoW = inStoW;
-        this.inWtoN= inWtoN;
+        this.inWtoN = inWtoN;
         this.inWtoE = inWtoE;
         this.inWtoS = inWtoS;
     }
@@ -32,6 +35,7 @@
     /// </summary>
     public void Perform()
     {
+        counter++;
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             incomingMap[entry.Key] = false;
         incomingMap[inNtoW] = true;

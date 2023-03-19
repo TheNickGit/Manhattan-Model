@@ -7,7 +7,7 @@ class Program
     public static int xLength = 3;
     public static int yLength = 3;
     static int networkAmount = 4;
-    public static lightsTactic lightsMode = lightsTactic.hardcode1D;
+    public static lightsTactic lightsMode = lightsTactic.adaptive1D;
     public static int lightInterval = 5;
     static bool printMode = true;
 

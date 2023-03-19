@@ -1,4 +1,4 @@
-﻿class L_OneDirection1R
+﻿class L_2Right2Left
 {
     private Dictionary<LinkedList<Car>, bool> incomingMap;
     public LinkedList<Car> inNtoE, inNtoS, inNtoW,
@@ -7,7 +7,7 @@
     inWtoN, inWtoE, inWtoS;
     public int counter = 0;
 
-    public L_OneDirection1R(Dictionary<LinkedList<Car>, bool> incomingMap,
+    public L_2Right2Left(Dictionary<LinkedList<Car>, bool> incomingMap,
         LinkedList<Car> inNtoE, LinkedList<Car> inNtoS, LinkedList<Car> inNtoW,
         LinkedList<Car> inEtoN, LinkedList<Car> inEtoW, LinkedList<Car> inEtoS,
         LinkedList<Car> inStoN, LinkedList<Car> inStoW, LinkedList<Car> inStoE,
@@ -18,12 +18,12 @@
         this.inNtoS = inNtoS;
         this.inNtoW = inNtoW;
         this.inEtoN = inEtoN;
-        this.inEtoW= inEtoW;
+        this.inEtoW = inEtoW;
         this.inEtoS = inEtoS;
         this.inStoN = inStoN;
         this.inStoE = inStoE;
         this.inStoW = inStoW;
-        this.inWtoN= inWtoN;
+        this.inWtoN = inWtoN;
         this.inWtoE = inWtoE;
         this.inWtoS = inWtoS;
     }
@@ -36,33 +36,19 @@
         counter++;
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             incomingMap[entry.Key] = false;
-        if (direction == Route.direction.N)
+        if (direction == Route.direction.N || direction == Route.direction.S)
         {
-            incomingMap[inNtoW] = true;
-            incomingMap[inNtoS] = true;
             incomingMap[inNtoE] = true;
             incomingMap[inEtoN] = true;
-        }
-        else if (direction == Route.direction.E)
-        {
-            incomingMap[inEtoN] = true;
-            incomingMap[inEtoS] = true;
-            incomingMap[inEtoW] = true;
-            incomingMap[inStoE] = true;
-        }
-        else if (direction == Route.direction.S)
-        {
-            incomingMap[inStoN] = true;
-            incomingMap[inStoE] = true;
             incomingMap[inStoW] = true;
             incomingMap[inWtoS] = true;
         }
-        else if (direction == Route.direction.W)
+        else if (direction == Route.direction.E || direction == Route.direction.W)
         {
             incomingMap[inWtoN] = true;
-            incomingMap[inWtoS] = true;
-            incomingMap[inWtoE] = true;
             incomingMap[inNtoW] = true;
+            incomingMap[inStoE] = true;
+            incomingMap[inEtoS] = true;
         }
     }
 
@@ -70,30 +56,18 @@
     {
         int traffic = 0;
         Route.direction bestDir = Route.direction.None;
-        int scoreN = inNtoW.Count + inNtoS.Count + inNtoE.Count + inEtoN.Count;
-        int scoreE = inEtoN.Count + inEtoS.Count + inEtoW.Count + inStoE.Count;
-        int scoreS = inStoN.Count + inStoE.Count + inStoW.Count + inWtoS.Count;
-        int scoreW = inWtoN.Count + inWtoS.Count + inWtoE.Count + inNtoW.Count;
+        int scoreNS = inNtoE.Count + inEtoN.Count + inStoW.Count + inWtoS.Count;
+        int scoreEW = inWtoN.Count + inNtoW.Count + inStoE.Count + inEtoS.Count;
 
-        if (scoreN > 0)
+        if (scoreNS > 0)
         {
             bestDir = Route.direction.N;
-            traffic = scoreN;
+            traffic = scoreNS;
         }
-        if (scoreE > scoreN)
+        if (scoreEW > scoreNS)
         {
             bestDir = Route.direction.E;
-            traffic = scoreE;
-        }
-        if (scoreS > scoreE)
-        {
-            bestDir = Route.direction.S;
-            traffic = scoreS;
-        }
-        if (scoreW > scoreS)
-        {
-            bestDir = Route.direction.W;
-            traffic = scoreW;
+            traffic = scoreEW;
         }
 
         return (traffic, bestDir);
