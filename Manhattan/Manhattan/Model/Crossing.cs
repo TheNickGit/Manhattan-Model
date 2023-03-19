@@ -8,7 +8,8 @@
         inWtoN, inWtoE, inWtoS;
     public Crossing neiN, neiE, neiS, neiW;
     public Lights lights;
-    public int trafficLightTime = 0;
+    int trafficLightTime = 0;
+    int delay = 0;
     public Route.direction direction = Route.direction.W;
 
     public Crossing()
@@ -196,29 +197,48 @@
     /// </summary>
     public void Update()
     {
-        switch (Program.lightsMode)
-        {
-            case Program.lightsTactic.adaptive:
-                //do shit
-                break;
-            case Program.lightsTactic.adaptive1D:
-                (int, Route.direction) tuple = lights.l_OneDirection1R.Calculate();
-                direction = tuple.Item2;
-                lights.l_OneDirection1R.Perform(direction);
-                break;
-            case Program.lightsTactic.hardcode1D:
-                if (trafficLightTime <= 0)
-                {
-                    trafficLightTime = Program.lightInterval;
-                    if (direction == Route.direction.N) direction = Route.direction.E;
-                    else if (direction == Route.direction.E) direction = Route.direction.S;
-                    else if (direction == Route.direction.S) direction = Route.direction.W;
-                    else if (direction == Route.direction.W) direction = Route.direction.N;
+        delay--;
 
-                    lights.l_OneDirection1R.Perform(direction);
-                }
-                trafficLightTime--;
-                break;
+        if (trafficLightTime == 0 && delay < 0)
+        {
+            delay = Program.delay;
+            foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+                incomingMap[entry.Key] = false;
+        }
+
+        if (delay <= 0)
+        {
+            trafficLightTime--;
+            switch (Program.lightsMode)
+            {
+                case Program.lightsTactic.adaptive:
+                    //do shit
+                    break;
+                case Program.lightsTactic.adaptive1D:
+                    if (trafficLightTime <= 0)
+                    {
+                        (int, Route.direction) tuple = lights.l_OneDirection1R.Calculate();
+                        trafficLightTime = tuple.Item1 / 8;
+                        if (trafficLightTime < 5)
+                            trafficLightTime = 5;
+
+                        direction = tuple.Item2;
+                        lights.l_OneDirection1R.Perform(direction);
+                    }
+                    break;
+                case Program.lightsTactic.hardcode1D:
+                    if (trafficLightTime <= 0)
+                    {
+                        trafficLightTime = Program.lightInterval;
+                        if (direction == Route.direction.N) direction = Route.direction.E;
+                        else if (direction == Route.direction.E) direction = Route.direction.S;
+                        else if (direction == Route.direction.S) direction = Route.direction.W;
+                        else if (direction == Route.direction.W) direction = Route.direction.N;
+
+                        lights.l_OneDirection1R.Perform(direction);
+                    }
+                    break;
+            }
         }
 
         // Update all lanes where the trafic light is set to true

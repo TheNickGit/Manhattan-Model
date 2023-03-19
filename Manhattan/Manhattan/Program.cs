@@ -9,6 +9,7 @@ class Program
     static int networkAmount = 4;
     public static lightsTactic lightsMode = lightsTactic.adaptive1D;
     public static int lightInterval = 5;
+    public static int delay = 3;
     static bool printMode = true;
 
     // Property
