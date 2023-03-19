@@ -19,7 +19,7 @@ class Program
     public static int iteration = 0;
     static int networkIteration = 0;
     public static List<Car> cars = new List<Car>();
-    public enum lightsTactic { adaptive, hardcode1D }
+    public enum lightsTactic { adaptive, adaptive1D, hardcode1D }
 
 
     /// <summary>
