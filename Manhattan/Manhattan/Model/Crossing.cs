@@ -390,6 +390,26 @@ internal class Crossing
         incomingMap[inEtoN] = true;
     }
 
+    public void Light2Right2Left()
+    {
+        foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
+            incomingMap[entry.Key] = false;
+        if (direction == Route.direction.N || direction == Route.direction.S)
+        {
+            incomingMap[inNtoE] = true;
+            incomingMap[inEtoN] = true;
+            incomingMap[inStoW] = true;
+            incomingMap[inWtoS] = true;
+        }
+        else if (direction == Route.direction.E || direction == Route.direction.W)
+        {
+            incomingMap[inWtoN] = true;
+            incomingMap[inNtoW] = true;
+            incomingMap[inStoE] = true;
+            incomingMap[inEtoS] = true;
+        }
+    }
+
     /// <summary>
     /// Print (a part of) a crossing.
     /// </summary>
