@@ -9,3 +9,12 @@ car ID: 1 | travel time: 20 | distance: 2
 car ID: 3 | travel time: 20 | distance: 3
 car ID: 8 | travel time: 20 | distance: 2
 car ID: 18 | travel time: 20 | distance: 3
+car ID: 15 | travel time: 25 | distance: 2
+car ID: 16 | travel time: 25 | distance: 1
+car ID: 17 | travel time: 25 | distance: 1
+car ID: 6 | travel time: 26 | distance: 3
+car ID: 11 | travel time: 31 | distance: 3
+car ID: 10 | travel time: 35 | distance: 3
+car ID: 14 | travel time: 35 | distance: 2
+car ID: 5 | travel time: 36 | distance: 3
+car ID: 9 | travel time: 36 | distance: 3
