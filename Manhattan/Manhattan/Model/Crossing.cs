@@ -209,26 +209,53 @@
         if (delay <= 0)
         {
             trafficLightTime--;
-            switch (Program.lightsMode)
+            if (trafficLightTime <= 0)
             {
-                case Program.lightsTactic.adaptive:
-                    //do shit
-                    break;
-                case Program.lightsTactic.adaptive1D:
-                    if (trafficLightTime <= 0)
-                    {
+                switch (Program.lightsMode)
+                {
+                    // CASE: ADAPTIVE
+                    case Program.lightsTactic.adaptive:
+                        (int, Route.direction) tuple2R2L = lights.l_2Right2Left.Calculate();
+                        (int, Route.direction) tuple3R1L = lights.l_3Right1Left.Calculate();
+                        (int, Route.direction) tuple4R = lights.l_AllRight.Calculate();
+                        (int, Route.direction) tuple1D1R = lights.l_OneDirection1R.Calculate();
+                        (int, Route.direction) tupleSR = lights.l_StraightAndRight.Calculate();
+
+                        // Get the best.
+                        List<(int, Route.direction)> tupleList = new List<(int, Route.direction)> { tuple2R2L, tuple3R1L, tuple4R, tuple1D1R, tupleSR };
+                        (int, Route.direction) bestTuple = (0, Route.direction.None);
+                        bestTuple = tupleList.Max();
+
+                        trafficLightTime = bestTuple.Item1 / 8;
+                        if (trafficLightTime < 5)
+                            trafficLightTime = 5;
+                        direction = bestTuple.Item2;
+
+                        if (bestTuple.Equals(tuple2R2L))
+                            lights.l_2Right2Left.Perform(direction);
+                        else if (bestTuple.Equals(tuple3R1L))
+                            lights.l_3Right1Left.Perform(direction);
+                        else if (bestTuple.Equals(tuple4R))
+                            lights.l_AllRight.Perform();
+                        else if (bestTuple.Equals(tuple1D1R))
+                            lights.l_OneDirection1R.Perform(direction);
+                        else if (bestTuple.Equals(tupleSR))
+                            lights.l_StraightAndRight.Perform(direction);
+
+                            break;
+                    // CASE: ADAPTIVE1D
+                    case Program.lightsTactic.adaptive1D:
                         (int, Route.direction) tuple = lights.l_OneDirection1R.Calculate();
+
                         trafficLightTime = tuple.Item1 / 8;
                         if (trafficLightTime < 5)
                             trafficLightTime = 5;
-
                         direction = tuple.Item2;
+
                         lights.l_OneDirection1R.Perform(direction);
-                    }
-                    break;
-                case Program.lightsTactic.hardcode1D:
-                    if (trafficLightTime <= 0)
-                    {
+                        break;
+                    // CASE: HARDCODE
+                    case Program.lightsTactic.hardcode1D:
                         trafficLightTime = Program.lightInterval;
                         if (direction == Route.direction.N) direction = Route.direction.E;
                         else if (direction == Route.direction.E) direction = Route.direction.S;
@@ -236,9 +263,9 @@
                         else if (direction == Route.direction.W) direction = Route.direction.N;
 
                         lights.l_OneDirection1R.Perform(direction);
-                    }
-                    break;
-            }
+                        break;
+                }
+            } 
         }
 
         // Update all lanes where the trafic light is set to true

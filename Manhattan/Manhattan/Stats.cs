@@ -19,7 +19,7 @@ internal class Stats
         {
             foreach (StatsCarEntry entry in carStats)
             {
-                if (entry.ID < 200)
+                if (entry.ID < Program.sampleSize)
                     writer.WriteLine("car ID: " + entry.ID + " | travel time: " + entry.travelTime + " | distance: " + entry.distance);
             }
         }

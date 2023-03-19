@@ -3,14 +3,15 @@ class Program
 {
     // Config
     public static Random random = new Random(353230932);
-    public static int numberOfCars = 20;
-    public static int xLength = 3;
-    public static int yLength = 3;
-    static int networkAmount = 4;
-    public static lightsTactic lightsMode = lightsTactic.adaptive1D;
+    public static int numberOfCars = 20000;
+    public static int xLength = 10;
+    public static int yLength = 10;
+    static int networkAmount = 1;
+    public static lightsTactic lightsMode = lightsTactic.adaptive;
     public static int lightInterval = 5;
     public static int delay = 3;
-    static bool printMode = true;
+    public static int sampleSize = 500;
+    static bool printMode = false;
 
     // Property
     static RoadNetwork network;
