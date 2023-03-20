@@ -218,7 +218,7 @@
                         (int, Route.direction) tuple2R2L = lights.l_2Right2Left.Calculate();
                         (int, Route.direction) tuple3R1L = lights.l_3Right1Left.Calculate();
                         (int, Route.direction) tuple4R = lights.l_AllRight.Calculate();
-                        (int, Route.direction) tuple1D1R = lights.l_OneDirection.Calculate();
+                        (int, Route.direction) tuple1D1R = lights.l_OneDirection1R.Calculate();
                         (int, Route.direction) tupleSR = lights.l_StraightAndRight.Calculate();
 
                         // Get the best.
@@ -238,21 +238,21 @@
                         else if (bestTuple.Equals(tuple4R))
                             lights.l_AllRight.Perform();
                         else if (bestTuple.Equals(tuple1D1R))
-                            lights.l_OneDirection.Perform(direction);
+                            lights.l_OneDirection1R.Perform(direction);
                         else if (bestTuple.Equals(tupleSR))
                             lights.l_StraightAndRight.Perform(direction);
 
                             break;
                     // CASE: ADAPTIVE1D
                     case Program.lightsTactic.adaptive1D:
-                        (int, Route.direction) tuple = lights.l_OneDirection.Calculate();
+                        (int, Route.direction) tuple = lights.l_OneDirection1R.Calculate();
 
                         trafficLightTime = tuple.Item1 / 8;
                         if (trafficLightTime < 5)
                             trafficLightTime = 5;
                         direction = tuple.Item2;
 
-                        lights.l_OneDirection.Perform(direction);
+                        lights.l_OneDirection1R.Perform(direction);
                         break;
                     // CASE: HARDCODE
                     case Program.lightsTactic.hardcode1D:
@@ -262,7 +262,7 @@
                         else if (direction == Route.direction.S) direction = Route.direction.W;
                         else if (direction == Route.direction.W) direction = Route.direction.N;
 
-                        lights.l_OneDirection.Perform(direction);
+                        lights.l_OneDirection1R.Perform(direction);
                         break;
                 }
             } 

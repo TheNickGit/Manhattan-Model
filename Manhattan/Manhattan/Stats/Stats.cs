@@ -29,7 +29,7 @@ internal class Stats
             writer.WriteLine("2R2L | " + statsCrossing.count2R2L);
             writer.WriteLine("3R1L | " + statsCrossing.count3R1L);
             writer.WriteLine("4R   | " + statsCrossing.count4R);
-            writer.WriteLine("1D   | " + statsCrossing.count1D);
+            writer.WriteLine("1D1R | " + statsCrossing.count1D1R);
             writer.WriteLine("SR   | " + statsCrossing.countSR);
         }
     }

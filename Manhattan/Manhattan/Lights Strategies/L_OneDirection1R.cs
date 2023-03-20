@@ -1,4 +1,4 @@
-﻿class L_OneDirection
+﻿class L_OneDirection1R
 {
     private Dictionary<LinkedList<Car>, bool> incomingMap;
     public LinkedList<Car> inNtoE, inNtoS, inNtoW,
@@ -6,7 +6,7 @@
     inStoN, inStoW, inStoE,
     inWtoN, inWtoE, inWtoS;
 
-    public L_OneDirection(Dictionary<LinkedList<Car>, bool> incomingMap,
+    public L_OneDirection1R(Dictionary<LinkedList<Car>, bool> incomingMap,
         LinkedList<Car> inNtoE, LinkedList<Car> inNtoS, LinkedList<Car> inNtoW,
         LinkedList<Car> inEtoN, LinkedList<Car> inEtoW, LinkedList<Car> inEtoS,
         LinkedList<Car> inStoN, LinkedList<Car> inStoW, LinkedList<Car> inStoE,
@@ -32,7 +32,7 @@
     /// </summary>
     public void Perform(Route.direction direction)
     {
-        Program.stats.statsCrossing.count1D++;
+        Program.stats.statsCrossing.count1D1R++;
 
         foreach (KeyValuePair<LinkedList<Car>, bool> entry in incomingMap)
             incomingMap[entry.Key] = false;
@@ -41,24 +41,28 @@
             incomingMap[inNtoW] = true;
             incomingMap[inNtoS] = true;
             incomingMap[inNtoE] = true;
+            incomingMap[inEtoN] = true;
         }
         else if (direction == Route.direction.E)
         {
             incomingMap[inEtoN] = true;
             incomingMap[inEtoS] = true;
             incomingMap[inEtoW] = true;
+            incomingMap[inStoE] = true;
         }
         else if (direction == Route.direction.S)
         {
             incomingMap[inStoN] = true;
             incomingMap[inStoE] = true;
             incomingMap[inStoW] = true;
+            incomingMap[inWtoS] = true;
         }
         else if (direction == Route.direction.W)
         {
             incomingMap[inWtoN] = true;
             incomingMap[inWtoS] = true;
             incomingMap[inWtoE] = true;
+            incomingMap[inNtoW] = true;
         }
     }
 
@@ -66,10 +70,10 @@
     {
         int traffic = 0;
         Route.direction bestDir = Route.direction.None;
-        int scoreN = inNtoW.Count + inNtoS.Count + inNtoE.Count;
-        int scoreE = inEtoN.Count + inEtoS.Count + inEtoW.Count;
-        int scoreS = inStoN.Count + inStoE.Count + inStoW.Count;
-        int scoreW = inWtoN.Count + inWtoS.Count + inWtoE.Count;
+        int scoreN = inNtoW.Count + inNtoS.Count + inNtoE.Count + inEtoN.Count;
+        int scoreE = inEtoN.Count + inEtoS.Count + inEtoW.Count + inStoE.Count;
+        int scoreS = inStoN.Count + inStoE.Count + inStoW.Count + inWtoS.Count;
+        int scoreW = inWtoN.Count + inWtoS.Count + inWtoE.Count + inNtoW.Count;
 
         if (scoreN > 0)
         {
