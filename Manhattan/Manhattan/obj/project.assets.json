@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\nvrie\\.nuget\\packages\\": {},
+    "C:\\Users\\kdkoe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nvrie\\OneDrive\\Documenten\\Git Repositories\\manhattan\\Manhattan\\Manhattan\\Manhattan.csproj",
+      "projectUniqueName": "C:\\Users\\kdkoe\\OneDrive\\Documents\\GitHub\\manhattan\\Manhattan\\Manhattan\\Manhattan.csproj",
       "projectName": "Manhattan",
-      "projectPath": "C:\\Users\\nvrie\\OneDrive\\Documenten\\Git Repositories\\manhattan\\Manhattan\\Manhattan\\Manhattan.csproj",
-      "packagesPath": "C:\\Users\\nvrie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nvrie\\OneDrive\\Documenten\\Git Repositories\\manhattan\\Manhattan\\Manhattan\\obj\\",
+      "projectPath": "C:\\Users\\kdkoe\\OneDrive\\Documents\\GitHub\\manhattan\\Manhattan\\Manhattan\\Manhattan.csproj",
+      "packagesPath": "C:\\Users\\kdkoe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kdkoe\\OneDrive\\Documents\\GitHub\\manhattan\\Manhattan\\Manhattan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nvrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kdkoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

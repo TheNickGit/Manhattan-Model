@@ -4,11 +4,11 @@ class Program
 {
     // Config
     public static Random random = new Random(353230932);
-    public static int numberOfCars = 20000;
-    public static int xLength = 10;
-    public static int yLength = 10;
+    public static int numberOfCars = 100000;
+    public static int xLength = 15;
+    public static int yLength = 15;
     static int networkAmount = 2;
-    public static lightsTactic lightsMode = lightsTactic.adaptive;
+    public static lightsTactic lightsMode = lightsTactic.adaptive1D;
     public static int lightInterval = 5;
     public static int delay = 3;
     public static int sampleSize = 500;
@@ -78,7 +78,7 @@ class Program
         stats.statsCrossing.iterations = iteration;
         iteration = 0;
         networkIteration++;
-
+        Console.WriteLine("Finished" + networkIteration);
         if (networkIteration < networkAmount)
         {
             stats = statsList[networkIteration];

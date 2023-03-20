@@ -21,7 +21,7 @@ internal class Stats
             foreach (StatsCarEntry entry in carStats)
             {
                 if (entry.ID < Program.sampleSize)
-                    writer.WriteLine("car ID: " + entry.ID + " | travel time: " + entry.travelTime + " | distance: " + entry.distance);
+                    writer.WriteLine(entry.ID + " |  " + entry.travelTime + " |  " + entry.distance);
             }
         using (StreamWriter writer = new StreamWriter(pathCrossings, true))
         {

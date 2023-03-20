@@ -1,1000 +1,1000 @@
-car ID: 88 | travel time: 19 | distance: 1
-car ID: 253 | travel time: 20 | distance: 1
-car ID: 473 | travel time: 21 | distance: 1
-car ID: 26 | travel time: 22 | distance: 2
-car ID: 124 | travel time: 30 | distance: 3
-car ID: 439 | travel time: 37 | distance: 1
-car ID: 225 | travel time: 39 | distance: 1
-car ID: 202 | travel time: 44 | distance: 1
-car ID: 450 | travel time: 46 | distance: 3
-car ID: 8 | travel time: 47 | distance: 1
-car ID: 301 | travel time: 56 | distance: 2
-car ID: 333 | travel time: 59 | distance: 2
-car ID: 384 | travel time: 62 | distance: 3
-car ID: 142 | travel time: 66 | distance: 2
-car ID: 188 | travel time: 69 | distance: 6
-car ID: 2 | travel time: 73 | distance: 1
-car ID: 233 | travel time: 74 | distance: 2
-car ID: 421 | travel time: 77 | distance: 3
-car ID: 218 | travel time: 98 | distance: 5
-car ID: 392 | travel time: 98 | distance: 2
-car ID: 87 | travel time: 99 | distance: 3
-car ID: 214 | travel time: 99 | distance: 1
-car ID: 170 | travel time: 100 | distance: 2
-car ID: 381 | travel time: 102 | distance: 3
-car ID: 360 | travel time: 103 | distance: 3
-car ID: 263 | travel time: 106 | distance: 6
-car ID: 31 | travel time: 109 | distance: 4
-car ID: 122 | travel time: 111 | distance: 2
-car ID: 380 | travel time: 111 | distance: 3
-car ID: 446 | travel time: 111 | distance: 4
-car ID: 61 | travel time: 112 | distance: 1
-car ID: 238 | travel time: 116 | distance: 8
-car ID: 81 | travel time: 119 | distance: 5
-car ID: 361 | travel time: 119 | distance: 3
-car ID: 39 | travel time: 120 | distance: 5
-car ID: 424 | travel time: 129 | distance: 4
-car ID: 67 | travel time: 130 | distance: 3
-car ID: 22 | travel time: 131 | distance: 2
-car ID: 221 | travel time: 134 | distance: 4
-car ID: 470 | travel time: 134 | distance: 5
-car ID: 350 | travel time: 135 | distance: 2
-car ID: 159 | travel time: 136 | distance: 3
-car ID: 126 | travel time: 139 | distance: 4
-car ID: 317 | travel time: 140 | distance: 3
-car ID: 230 | travel time: 142 | distance: 3
-car ID: 300 | travel time: 143 | distance: 3
-car ID: 331 | travel time: 143 | distance: 2
-car ID: 346 | travel time: 144 | distance: 1
-car ID: 100 | travel time: 147 | distance: 2
-car ID: 115 | travel time: 147 | distance: 1
-car ID: 193 | travel time: 147 | distance: 6
-car ID: 200 | travel time: 148 | distance: 4
-car ID: 282 | travel time: 148 | distance: 3
-car ID: 378 | travel time: 150 | distance: 2
-car ID: 455 | travel time: 151 | distance: 4
-car ID: 335 | travel time: 153 | distance: 6
-car ID: 298 | travel time: 154 | distance: 4
-car ID: 394 | travel time: 158 | distance: 3
-car ID: 106 | travel time: 160 | distance: 3
-car ID: 325 | travel time: 160 | distance: 4
-car ID: 310 | travel time: 162 | distance: 2
-car ID: 391 | travel time: 164 | distance: 3
-car ID: 417 | travel time: 164 | distance: 3
-car ID: 240 | travel time: 166 | distance: 4
-car ID: 369 | travel time: 174 | distance: 4
-car ID: 485 | travel time: 174 | distance: 6
-car ID: 428 | travel time: 177 | distance: 3
-car ID: 349 | travel time: 178 | distance: 2
-car ID: 197 | travel time: 179 | distance: 3
-car ID: 140 | travel time: 181 | distance: 5
-car ID: 434 | travel time: 182 | distance: 3
-car ID: 179 | travel time: 185 | distance: 4
-car ID: 467 | travel time: 185 | distance: 6
-car ID: 344 | travel time: 189 | distance: 2
-car ID: 256 | travel time: 190 | distance: 3
-car ID: 48 | travel time: 191 | distance: 4
-car ID: 75 | travel time: 192 | distance: 6
-car ID: 204 | travel time: 196 | distance: 5
-car ID: 33 | travel time: 197 | distance: 6
-car ID: 254 | travel time: 198 | distance: 4
-car ID: 207 | travel time: 201 | distance: 2
-car ID: 362 | travel time: 205 | distance: 5
-car ID: 329 | travel time: 207 | distance: 3
-car ID: 389 | travel time: 207 | distance: 6
-car ID: 153 | travel time: 208 | distance: 7
-car ID: 414 | travel time: 210 | distance: 4
-car ID: 121 | travel time: 213 | distance: 1
-car ID: 456 | travel time: 213 | distance: 3
-car ID: 69 | travel time: 214 | distance: 4
-car ID: 293 | travel time: 216 | distance: 5
-car ID: 347 | travel time: 216 | distance: 4
-car ID: 472 | travel time: 217 | distance: 8
-car ID: 3 | travel time: 218 | distance: 3
-car ID: 265 | travel time: 218 | distance: 3
-car ID: 320 | travel time: 220 | distance: 4
-car ID: 226 | travel time: 221 | distance: 4
-car ID: 294 | travel time: 222 | distance: 4
-car ID: 334 | travel time: 222 | distance: 1
-car ID: 377 | travel time: 222 | distance: 5
-car ID: 270 | travel time: 224 | distance: 5
-car ID: 484 | travel time: 224 | distance: 8
-car ID: 224 | travel time: 225 | distance: 2
-car ID: 237 | travel time: 226 | distance: 3
-car ID: 355 | travel time: 226 | distance: 7
-car ID: 352 | travel time: 227 | distance: 5
-car ID: 52 | travel time: 230 | distance: 6
-car ID: 249 | travel time: 232 | distance: 4
-car ID: 348 | travel time: 236 | distance: 8
-car ID: 114 | travel time: 237 | distance: 3
-car ID: 386 | travel time: 238 | distance: 3
-car ID: 244 | travel time: 239 | distance: 4
-car ID: 57 | travel time: 240 | distance: 5
-car ID: 95 | travel time: 244 | distance: 3
-car ID: 99 | travel time: 245 | distance: 3
-car ID: 402 | travel time: 246 | distance: 5
-car ID: 168 | travel time: 247 | distance: 6
-car ID: 227 | travel time: 247 | distance: 6
-car ID: 388 | travel time: 250 | distance: 7
-car ID: 438 | travel time: 252 | distance: 1
-car ID: 20 | travel time: 253 | distance: 4
-car ID: 63 | travel time: 254 | distance: 4
-car ID: 279 | travel time: 260 | distance: 5
-car ID: 190 | travel time: 262 | distance: 6
-car ID: 397 | travel time: 262 | distance: 9
-car ID: 242 | travel time: 263 | distance: 4
-car ID: 12 | travel time: 264 | distance: 6
-car ID: 82 | travel time: 264 | distance: 1
-car ID: 461 | travel time: 266 | distance: 9
-car ID: 274 | travel time: 269 | distance: 4
-car ID: 359 | travel time: 269 | distance: 4
-car ID: 375 | travel time: 271 | distance: 10
-car ID: 314 | travel time: 274 | distance: 3
-car ID: 151 | travel time: 278 | distance: 8
-car ID: 405 | travel time: 278 | distance: 6
-car ID: 480 | travel time: 280 | distance: 5
-car ID: 93 | travel time: 282 | distance: 6
-car ID: 252 | travel time: 282 | distance: 6
-car ID: 337 | travel time: 283 | distance: 4
-car ID: 184 | travel time: 284 | distance: 4
-car ID: 213 | travel time: 286 | distance: 6
-car ID: 222 | travel time: 287 | distance: 8
-car ID: 419 | travel time: 288 | distance: 6
-car ID: 17 | travel time: 293 | distance: 8
-car ID: 246 | travel time: 294 | distance: 9
-car ID: 436 | travel time: 296 | distance: 7
-car ID: 130 | travel time: 298 | distance: 11
-car ID: 495 | travel time: 299 | distance: 5
-car ID: 353 | travel time: 301 | distance: 5
-car ID: 311 | travel time: 304 | distance: 5
-car ID: 371 | travel time: 305 | distance: 10
-car ID: 150 | travel time: 309 | distance: 7
-car ID: 332 | travel time: 309 | distance: 10
-car ID: 286 | travel time: 310 | distance: 5
-car ID: 497 | travel time: 312 | distance: 7
-car ID: 117 | travel time: 313 | distance: 12
-car ID: 178 | travel time: 313 | distance: 3
-car ID: 145 | travel time: 315 | distance: 6
-car ID: 383 | travel time: 317 | distance: 6
-car ID: 273 | travel time: 323 | distance: 5
-car ID: 4 | travel time: 324 | distance: 3
-car ID: 131 | travel time: 324 | distance: 3
-car ID: 292 | travel time: 326 | distance: 5
-car ID: 49 | travel time: 327 | distance: 9
-car ID: 64 | travel time: 329 | distance: 4
-car ID: 499 | travel time: 335 | distance: 5
-car ID: 65 | travel time: 337 | distance: 4
-car ID: 105 | travel time: 337 | distance: 3
-car ID: 19 | travel time: 338 | distance: 8
-car ID: 459 | travel time: 339 | distance: 3
-car ID: 308 | travel time: 341 | distance: 4
-car ID: 234 | travel time: 342 | distance: 6
-car ID: 186 | travel time: 345 | distance: 5
-car ID: 422 | travel time: 352 | distance: 4
-car ID: 40 | travel time: 356 | distance: 6
-car ID: 169 | travel time: 357 | distance: 5
-car ID: 194 | travel time: 357 | distance: 3
-car ID: 143 | travel time: 358 | distance: 5
-car ID: 460 | travel time: 358 | distance: 4
-car ID: 307 | travel time: 359 | distance: 6
-car ID: 271 | travel time: 360 | distance: 4
-car ID: 162 | travel time: 362 | distance: 7
-car ID: 425 | travel time: 362 | distance: 5
-car ID: 486 | travel time: 363 | distance: 7
-car ID: 215 | travel time: 365 | distance: 6
-car ID: 119 | travel time: 370 | distance: 5
-car ID: 319 | travel time: 371 | distance: 6
-car ID: 18 | travel time: 373 | distance: 4
-car ID: 321 | travel time: 373 | distance: 7
-car ID: 409 | travel time: 373 | distance: 4
-car ID: 305 | travel time: 375 | distance: 6
-car ID: 267 | travel time: 376 | distance: 7
-car ID: 210 | travel time: 381 | distance: 3
-car ID: 125 | travel time: 382 | distance: 3
-car ID: 71 | travel time: 385 | distance: 9
-car ID: 327 | travel time: 386 | distance: 5
-car ID: 288 | travel time: 388 | distance: 7
-car ID: 192 | travel time: 390 | distance: 4
-car ID: 189 | travel time: 391 | distance: 10
-car ID: 34 | travel time: 392 | distance: 4
-car ID: 299 | travel time: 392 | distance: 11
-car ID: 89 | travel time: 393 | distance: 5
-car ID: 407 | travel time: 395 | distance: 6
-car ID: 257 | travel time: 396 | distance: 8
-car ID: 285 | travel time: 400 | distance: 8
-car ID: 379 | travel time: 400 | distance: 7
-car ID: 400 | travel time: 400 | distance: 8
-car ID: 373 | travel time: 404 | distance: 8
-car ID: 30 | travel time: 405 | distance: 4
-car ID: 134 | travel time: 405 | distance: 7
-car ID: 395 | travel time: 405 | distance: 2
-car ID: 219 | travel time: 408 | distance: 8
-car ID: 266 | travel time: 408 | distance: 8
-car ID: 152 | travel time: 410 | distance: 3
-car ID: 139 | travel time: 412 | distance: 1
-car ID: 175 | travel time: 413 | distance: 4
-car ID: 62 | travel time: 414 | distance: 4
-car ID: 404 | travel time: 415 | distance: 6
-car ID: 479 | travel time: 416 | distance: 3
-car ID: 27 | travel time: 417 | distance: 6
-car ID: 183 | travel time: 417 | distance: 6
-car ID: 342 | travel time: 417 | distance: 1
-car ID: 14 | travel time: 419 | distance: 5
-car ID: 385 | travel time: 419 | distance: 3
-car ID: 35 | travel time: 423 | distance: 5
-car ID: 208 | travel time: 423 | distance: 8
-car ID: 216 | travel time: 424 | distance: 5
-car ID: 449 | travel time: 427 | distance: 7
-car ID: 433 | travel time: 432 | distance: 4
-car ID: 376 | travel time: 433 | distance: 7
-car ID: 490 | travel time: 434 | distance: 7
-car ID: 94 | travel time: 438 | distance: 8
-car ID: 471 | travel time: 444 | distance: 7
-car ID: 366 | travel time: 446 | distance: 9
-car ID: 264 | travel time: 447 | distance: 5
-car ID: 236 | travel time: 449 | distance: 7
-car ID: 372 | travel time: 449 | distance: 5
-car ID: 258 | travel time: 450 | distance: 6
-car ID: 387 | travel time: 452 | distance: 7
-car ID: 322 | travel time: 455 | distance: 7
-car ID: 180 | travel time: 456 | distance: 4
-car ID: 165 | travel time: 458 | distance: 4
-car ID: 6 | travel time: 461 | distance: 9
-car ID: 15 | travel time: 462 | distance: 12
-car ID: 457 | travel time: 462 | distance: 8
-car ID: 177 | travel time: 464 | distance: 7
-car ID: 185 | travel time: 468 | distance: 8
-car ID: 158 | travel time: 469 | distance: 7
-car ID: 324 | travel time: 469 | distance: 7
-car ID: 98 | travel time: 470 | distance: 9
-car ID: 113 | travel time: 470 | distance: 3
-car ID: 498 | travel time: 470 | distance: 6
-car ID: 147 | travel time: 473 | distance: 3
-car ID: 203 | travel time: 473 | distance: 7
-car ID: 413 | travel time: 473 | distance: 9
-car ID: 42 | travel time: 475 | distance: 6
-car ID: 51 | travel time: 477 | distance: 3
-car ID: 464 | travel time: 478 | distance: 4
-car ID: 58 | travel time: 479 | distance: 4
-car ID: 328 | travel time: 479 | distance: 8
-car ID: 176 | travel time: 480 | distance: 6
-car ID: 370 | travel time: 481 | distance: 7
-car ID: 489 | travel time: 482 | distance: 6
-car ID: 9 | travel time: 484 | distance: 6
-car ID: 235 | travel time: 484 | distance: 5
-car ID: 458 | travel time: 489 | distance: 3
-car ID: 13 | travel time: 492 | distance: 8
-car ID: 232 | travel time: 492 | distance: 6
-car ID: 43 | travel time: 495 | distance: 9
-car ID: 44 | travel time: 496 | distance: 6
-car ID: 160 | travel time: 497 | distance: 8
-car ID: 7 | travel time: 498 | distance: 6
-car ID: 172 | travel time: 498 | distance: 10
-car ID: 181 | travel time: 502 | distance: 7
-car ID: 211 | travel time: 505 | distance: 10
-car ID: 108 | travel time: 506 | distance: 8
-car ID: 132 | travel time: 506 | distance: 4
-car ID: 156 | travel time: 507 | distance: 13
-car ID: 437 | travel time: 508 | distance: 6
-car ID: 196 | travel time: 509 | distance: 6
-car ID: 367 | travel time: 512 | distance: 9
-car ID: 356 | travel time: 514 | distance: 8
-car ID: 47 | travel time: 515 | distance: 5
-car ID: 24 | travel time: 520 | distance: 5
-car ID: 84 | travel time: 520 | distance: 4
-car ID: 174 | travel time: 523 | distance: 10
-car ID: 297 | travel time: 528 | distance: 6
-car ID: 418 | travel time: 529 | distance: 12
-car ID: 138 | travel time: 530 | distance: 8
-car ID: 390 | travel time: 530 | distance: 3
-car ID: 477 | travel time: 530 | distance: 8
-car ID: 10 | travel time: 533 | distance: 2
-car ID: 412 | travel time: 533 | distance: 10
-car ID: 0 | travel time: 534 | distance: 5
-car ID: 157 | travel time: 534 | distance: 11
-car ID: 338 | travel time: 534 | distance: 8
-car ID: 354 | travel time: 541 | distance: 4
-car ID: 488 | travel time: 542 | distance: 5
-car ID: 345 | travel time: 546 | distance: 5
-car ID: 195 | travel time: 547 | distance: 10
-car ID: 304 | travel time: 547 | distance: 7
-car ID: 191 | travel time: 551 | distance: 8
-car ID: 101 | travel time: 555 | distance: 4
-car ID: 277 | travel time: 556 | distance: 6
-car ID: 447 | travel time: 556 | distance: 12
-car ID: 149 | travel time: 557 | distance: 7
-car ID: 469 | travel time: 562 | distance: 8
-car ID: 109 | travel time: 565 | distance: 3
-car ID: 112 | travel time: 566 | distance: 5
-car ID: 146 | travel time: 571 | distance: 4
-car ID: 187 | travel time: 571 | distance: 7
-car ID: 23 | travel time: 574 | distance: 9
-car ID: 104 | travel time: 576 | distance: 11
-car ID: 111 | travel time: 576 | distance: 6
-car ID: 50 | travel time: 579 | distance: 10
-car ID: 5 | travel time: 581 | distance: 5
-car ID: 231 | travel time: 581 | distance: 7
-car ID: 309 | travel time: 581 | distance: 7
-car ID: 474 | travel time: 584 | distance: 9
-car ID: 374 | travel time: 585 | distance: 4
-car ID: 290 | travel time: 588 | distance: 8
-car ID: 103 | travel time: 591 | distance: 3
-car ID: 199 | travel time: 591 | distance: 4
-car ID: 251 | travel time: 598 | distance: 4
-car ID: 411 | travel time: 598 | distance: 7
-car ID: 212 | travel time: 600 | distance: 4
-car ID: 116 | travel time: 601 | distance: 6
-car ID: 201 | travel time: 601 | distance: 9
-car ID: 358 | travel time: 601 | distance: 10
-car ID: 206 | travel time: 605 | distance: 7
-car ID: 56 | travel time: 606 | distance: 8
-car ID: 97 | travel time: 606 | distance: 13
-car ID: 205 | travel time: 607 | distance: 8
-car ID: 401 | travel time: 608 | distance: 7
-car ID: 466 | travel time: 608 | distance: 9
-car ID: 312 | travel time: 611 | distance: 6
-car ID: 11 | travel time: 616 | distance: 9
-car ID: 454 | travel time: 616 | distance: 9
-car ID: 144 | travel time: 619 | distance: 10
-car ID: 426 | travel time: 620 | distance: 9
-car ID: 250 | travel time: 622 | distance: 6
-car ID: 462 | travel time: 627 | distance: 4
-car ID: 86 | travel time: 629 | distance: 10
-car ID: 102 | travel time: 631 | distance: 3
-car ID: 220 | travel time: 633 | distance: 8
-car ID: 91 | travel time: 634 | distance: 11
-car ID: 229 | travel time: 634 | distance: 6
-car ID: 494 | travel time: 637 | distance: 6
-car ID: 463 | travel time: 638 | distance: 7
-car ID: 155 | travel time: 640 | distance: 6
-car ID: 406 | travel time: 641 | distance: 5
-car ID: 284 | travel time: 646 | distance: 10
-car ID: 318 | travel time: 647 | distance: 12
-car ID: 73 | travel time: 649 | distance: 5
-car ID: 171 | travel time: 649 | distance: 8
-car ID: 453 | travel time: 650 | distance: 7
-car ID: 427 | travel time: 651 | distance: 4
-car ID: 173 | travel time: 658 | distance: 11
-car ID: 38 | travel time: 662 | distance: 12
-car ID: 440 | travel time: 663 | distance: 7
-car ID: 268 | travel time: 665 | distance: 12
-car ID: 410 | travel time: 666 | distance: 10
-car ID: 435 | travel time: 666 | distance: 9
-car ID: 444 | travel time: 666 | distance: 4
-car ID: 154 | travel time: 673 | distance: 10
-car ID: 276 | travel time: 674 | distance: 8
-car ID: 343 | travel time: 675 | distance: 8
-car ID: 261 | travel time: 676 | distance: 7
-car ID: 80 | travel time: 677 | distance: 10
-car ID: 302 | travel time: 681 | distance: 11
-car ID: 445 | travel time: 684 | distance: 8
-car ID: 118 | travel time: 685 | distance: 11
-car ID: 136 | travel time: 685 | distance: 9
-car ID: 78 | travel time: 686 | distance: 13
-car ID: 32 | travel time: 687 | distance: 11
-car ID: 198 | travel time: 689 | distance: 9
-car ID: 29 | travel time: 695 | distance: 4
-car ID: 55 | travel time: 695 | distance: 6
-car ID: 295 | travel time: 697 | distance: 9
-car ID: 382 | travel time: 697 | distance: 7
-car ID: 291 | travel time: 698 | distance: 8
-car ID: 163 | travel time: 700 | distance: 4
-car ID: 272 | travel time: 701 | distance: 6
-car ID: 398 | travel time: 702 | distance: 7
-car ID: 442 | travel time: 705 | distance: 7
-car ID: 129 | travel time: 707 | distance: 10
-car ID: 21 | travel time: 709 | distance: 5
-car ID: 241 | travel time: 710 | distance: 8
-car ID: 209 | travel time: 713 | distance: 4
-car ID: 303 | travel time: 713 | distance: 11
-car ID: 123 | travel time: 714 | distance: 13
-car ID: 296 | travel time: 719 | distance: 5
-car ID: 336 | travel time: 720 | distance: 10
-car ID: 60 | travel time: 722 | distance: 7
-car ID: 306 | travel time: 729 | distance: 11
-car ID: 96 | travel time: 735 | distance: 15
-car ID: 1 | travel time: 736 | distance: 9
-car ID: 478 | travel time: 736 | distance: 12
-car ID: 364 | travel time: 737 | distance: 8
-car ID: 283 | travel time: 738 | distance: 9
-car ID: 167 | travel time: 740 | distance: 11
-car ID: 393 | travel time: 746 | distance: 14
-car ID: 476 | travel time: 752 | distance: 10
-car ID: 260 | travel time: 753 | distance: 9
-car ID: 396 | travel time: 755 | distance: 10
-car ID: 45 | travel time: 756 | distance: 10
-car ID: 420 | travel time: 761 | distance: 14
-car ID: 491 | travel time: 761 | distance: 9
-car ID: 399 | travel time: 762 | distance: 9
-car ID: 351 | travel time: 765 | distance: 8
-car ID: 148 | travel time: 770 | distance: 12
-car ID: 54 | travel time: 773 | distance: 10
-car ID: 475 | travel time: 774 | distance: 8
-car ID: 315 | travel time: 776 | distance: 7
-car ID: 289 | travel time: 780 | distance: 10
-car ID: 262 | travel time: 782 | distance: 8
-car ID: 451 | travel time: 782 | distance: 7
-car ID: 287 | travel time: 783 | distance: 5
-car ID: 70 | travel time: 784 | distance: 14
-car ID: 166 | travel time: 786 | distance: 8
-car ID: 432 | travel time: 787 | distance: 4
-car ID: 164 | travel time: 792 | distance: 10
-car ID: 430 | travel time: 795 | distance: 12
-car ID: 25 | travel time: 797 | distance: 6
-car ID: 487 | travel time: 800 | distance: 9
-car ID: 340 | travel time: 804 | distance: 7
-car ID: 481 | travel time: 805 | distance: 11
-car ID: 492 | travel time: 805 | distance: 13
-car ID: 85 | travel time: 806 | distance: 8
-car ID: 217 | travel time: 807 | distance: 10
-car ID: 365 | travel time: 811 | distance: 8
-car ID: 248 | travel time: 819 | distance: 6
-car ID: 368 | travel time: 819 | distance: 10
-car ID: 415 | travel time: 821 | distance: 10
-car ID: 278 | travel time: 822 | distance: 10
-car ID: 408 | travel time: 834 | distance: 7
-car ID: 107 | travel time: 836 | distance: 11
-car ID: 133 | travel time: 840 | distance: 9
-car ID: 423 | travel time: 841 | distance: 11
-car ID: 79 | travel time: 842 | distance: 6
-car ID: 245 | travel time: 844 | distance: 9
-car ID: 120 | travel time: 846 | distance: 10
-car ID: 493 | travel time: 848 | distance: 7
-car ID: 223 | travel time: 850 | distance: 10
-car ID: 41 | travel time: 853 | distance: 4
-car ID: 496 | travel time: 853 | distance: 13
-car ID: 330 | travel time: 854 | distance: 9
-car ID: 92 | travel time: 855 | distance: 10
-car ID: 135 | travel time: 856 | distance: 10
-car ID: 141 | travel time: 858 | distance: 11
-car ID: 59 | travel time: 862 | distance: 11
-car ID: 465 | travel time: 868 | distance: 9
-car ID: 259 | travel time: 869 | distance: 10
-car ID: 341 | travel time: 869 | distance: 9
-car ID: 247 | travel time: 873 | distance: 11
-car ID: 280 | travel time: 875 | distance: 10
-car ID: 275 | travel time: 883 | distance: 11
-car ID: 37 | travel time: 885 | distance: 10
-car ID: 243 | travel time: 888 | distance: 13
-car ID: 448 | travel time: 889 | distance: 7
-car ID: 316 | travel time: 895 | distance: 8
-car ID: 255 | travel time: 898 | distance: 11
-car ID: 269 | travel time: 898 | distance: 13
-car ID: 468 | travel time: 900 | distance: 11
-car ID: 16 | travel time: 908 | distance: 10
-car ID: 76 | travel time: 908 | distance: 5
-car ID: 83 | travel time: 912 | distance: 12
-car ID: 128 | travel time: 912 | distance: 9
-car ID: 68 | travel time: 914 | distance: 14
-car ID: 323 | travel time: 914 | distance: 13
-car ID: 53 | travel time: 927 | distance: 13
-car ID: 36 | travel time: 931 | distance: 13
-car ID: 46 | travel time: 932 | distance: 13
-car ID: 431 | travel time: 936 | distance: 14
-car ID: 137 | travel time: 938 | distance: 11
-car ID: 127 | travel time: 942 | distance: 10
-car ID: 363 | travel time: 942 | distance: 9
-car ID: 90 | travel time: 951 | distance: 9
-car ID: 72 | travel time: 964 | distance: 7
-car ID: 429 | travel time: 969 | distance: 9
-car ID: 441 | travel time: 979 | distance: 9
-car ID: 239 | travel time: 990 | distance: 5
-car ID: 228 | travel time: 999 | distance: 12
-car ID: 182 | travel time: 1000 | distance: 9
-car ID: 110 | travel time: 1001 | distance: 10
-car ID: 161 | travel time: 1007 | distance: 12
-car ID: 403 | travel time: 1007 | distance: 10
-car ID: 28 | travel time: 1008 | distance: 7
-car ID: 326 | travel time: 1030 | distance: 14
-car ID: 74 | travel time: 1040 | distance: 13
-car ID: 313 | travel time: 1040 | distance: 13
-car ID: 281 | travel time: 1047 | distance: 14
-car ID: 443 | travel time: 1058 | distance: 12
-car ID: 66 | travel time: 1075 | distance: 16
-car ID: 482 | travel time: 1077 | distance: 11
-car ID: 357 | travel time: 1089 | distance: 14
-car ID: 483 | travel time: 1102 | distance: 13
-car ID: 452 | travel time: 1104 | distance: 14
-car ID: 339 | travel time: 1124 | distance: 10
-car ID: 77 | travel time: 1132 | distance: 12
-car ID: 416 | travel time: 1133 | distance: 15
-car ID: 282 | travel time: 6 | distance: 1
-car ID: 172 | travel time: 8 | distance: 1
-car ID: 125 | travel time: 17 | distance: 1
-car ID: 289 | travel time: 18 | distance: 1
-car ID: 9 | travel time: 22 | distance: 2
-car ID: 311 | travel time: 23 | distance: 1
-car ID: 400 | travel time: 23 | distance: 2
-car ID: 5 | travel time: 27 | distance: 2
-car ID: 76 | travel time: 30 | distance: 1
-car ID: 215 | travel time: 30 | distance: 1
-car ID: 257 | travel time: 30 | distance: 1
-car ID: 335 | travel time: 36 | distance: 2
-car ID: 404 | travel time: 41 | distance: 1
-car ID: 224 | travel time: 47 | distance: 1
-car ID: 452 | travel time: 47 | distance: 5
-car ID: 49 | travel time: 51 | distance: 1
-car ID: 301 | travel time: 54 | distance: 1
-car ID: 430 | travel time: 54 | distance: 1
-car ID: 231 | travel time: 55 | distance: 2
-car ID: 182 | travel time: 68 | distance: 2
-car ID: 285 | travel time: 69 | distance: 3
-car ID: 317 | travel time: 72 | distance: 4
-car ID: 45 | travel time: 74 | distance: 2
-car ID: 226 | travel time: 74 | distance: 1
-car ID: 267 | travel time: 75 | distance: 4
-car ID: 104 | travel time: 76 | distance: 4
-car ID: 356 | travel time: 76 | distance: 4
-car ID: 407 | travel time: 77 | distance: 2
-car ID: 211 | travel time: 80 | distance: 1
-car ID: 11 | travel time: 86 | distance: 4
-car ID: 65 | travel time: 96 | distance: 3
-car ID: 144 | travel time: 102 | distance: 2
-car ID: 252 | travel time: 102 | distance: 6
-car ID: 474 | travel time: 105 | distance: 1
-car ID: 283 | travel time: 107 | distance: 2
-car ID: 341 | travel time: 108 | distance: 3
-car ID: 249 | travel time: 110 | distance: 1
-car ID: 13 | travel time: 112 | distance: 3
-car ID: 137 | travel time: 115 | distance: 4
-car ID: 181 | travel time: 119 | distance: 2
-car ID: 445 | travel time: 119 | distance: 3
-car ID: 43 | travel time: 121 | distance: 4
-car ID: 70 | travel time: 123 | distance: 4
-car ID: 142 | travel time: 123 | distance: 3
-car ID: 146 | travel time: 123 | distance: 5
-car ID: 262 | travel time: 123 | distance: 2
-car ID: 482 | travel time: 123 | distance: 4
-car ID: 190 | travel time: 124 | distance: 3
-car ID: 468 | travel time: 124 | distance: 3
-car ID: 322 | travel time: 129 | distance: 2
-car ID: 271 | travel time: 131 | distance: 2
-car ID: 302 | travel time: 131 | distance: 3
-car ID: 379 | travel time: 132 | distance: 2
-car ID: 467 | travel time: 132 | distance: 5
-car ID: 242 | travel time: 139 | distance: 2
-car ID: 481 | travel time: 140 | distance: 4
-car ID: 251 | travel time: 146 | distance: 4
-car ID: 206 | travel time: 149 | distance: 4
-car ID: 408 | travel time: 150 | distance: 5
-car ID: 82 | travel time: 152 | distance: 3
-car ID: 269 | travel time: 155 | distance: 5
-car ID: 374 | travel time: 157 | distance: 2
-car ID: 102 | travel time: 158 | distance: 6
-car ID: 441 | travel time: 159 | distance: 3
-car ID: 245 | travel time: 165 | distance: 3
-car ID: 376 | travel time: 166 | distance: 3
-car ID: 207 | travel time: 167 | distance: 7
-car ID: 51 | travel time: 172 | distance: 4
-car ID: 398 | travel time: 173 | distance: 5
-car ID: 364 | travel time: 174 | distance: 2
-car ID: 32 | travel time: 180 | distance: 6
-car ID: 433 | travel time: 181 | distance: 4
-car ID: 229 | travel time: 183 | distance: 8
-car ID: 440 | travel time: 185 | distance: 7
-car ID: 205 | travel time: 193 | distance: 1
-car ID: 69 | travel time: 202 | distance: 3
-car ID: 426 | travel time: 203 | distance: 3
-car ID: 325 | travel time: 209 | distance: 2
-car ID: 320 | travel time: 210 | distance: 3
-car ID: 480 | travel time: 210 | distance: 4
-car ID: 170 | travel time: 211 | distance: 5
-car ID: 455 | travel time: 213 | distance: 6
-car ID: 332 | travel time: 215 | distance: 4
-car ID: 227 | travel time: 220 | distance: 6
-car ID: 236 | travel time: 221 | distance: 7
-car ID: 27 | travel time: 222 | distance: 8
-car ID: 329 | travel time: 222 | distance: 7
-car ID: 175 | travel time: 223 | distance: 6
-car ID: 373 | travel time: 224 | distance: 6
-car ID: 213 | travel time: 228 | distance: 5
-car ID: 368 | travel time: 228 | distance: 3
-car ID: 409 | travel time: 228 | distance: 4
-car ID: 415 | travel time: 228 | distance: 3
-car ID: 99 | travel time: 229 | distance: 10
-car ID: 386 | travel time: 230 | distance: 5
-car ID: 272 | travel time: 234 | distance: 5
-car ID: 42 | travel time: 236 | distance: 4
-car ID: 241 | travel time: 238 | distance: 4
-car ID: 219 | travel time: 243 | distance: 6
-car ID: 297 | travel time: 243 | distance: 7
-car ID: 451 | travel time: 245 | distance: 8
-car ID: 308 | travel time: 247 | distance: 7
-car ID: 410 | travel time: 248 | distance: 2
-car ID: 443 | travel time: 253 | distance: 4
-car ID: 47 | travel time: 254 | distance: 7
-car ID: 263 | travel time: 255 | distance: 6
-car ID: 369 | travel time: 257 | distance: 6
-car ID: 437 | travel time: 258 | distance: 4
-car ID: 6 | travel time: 259 | distance: 6
-car ID: 123 | travel time: 261 | distance: 5
-car ID: 476 | travel time: 261 | distance: 5
-car ID: 103 | travel time: 264 | distance: 4
-car ID: 363 | travel time: 264 | distance: 7
-car ID: 61 | travel time: 268 | distance: 5
-car ID: 186 | travel time: 270 | distance: 5
-car ID: 35 | travel time: 272 | distance: 10
-car ID: 64 | travel time: 272 | distance: 6
-car ID: 185 | travel time: 272 | distance: 5
-car ID: 60 | travel time: 276 | distance: 2
-car ID: 316 | travel time: 277 | distance: 6
-car ID: 464 | travel time: 277 | distance: 6
-car ID: 155 | travel time: 280 | distance: 4
-car ID: 203 | travel time: 280 | distance: 2
-car ID: 380 | travel time: 281 | distance: 5
-car ID: 293 | travel time: 282 | distance: 3
-car ID: 110 | travel time: 284 | distance: 6
-car ID: 417 | travel time: 285 | distance: 4
-car ID: 456 | travel time: 288 | distance: 4
-car ID: 214 | travel time: 289 | distance: 2
-car ID: 315 | travel time: 290 | distance: 6
-car ID: 327 | travel time: 290 | distance: 4
-car ID: 498 | travel time: 295 | distance: 4
-car ID: 136 | travel time: 296 | distance: 5
-car ID: 416 | travel time: 310 | distance: 6
-car ID: 202 | travel time: 312 | distance: 6
-car ID: 163 | travel time: 313 | distance: 5
-car ID: 216 | travel time: 314 | distance: 8
-car ID: 151 | travel time: 315 | distance: 6
-car ID: 370 | travel time: 315 | distance: 3
-car ID: 153 | travel time: 319 | distance: 10
-car ID: 62 | travel time: 323 | distance: 5
-car ID: 357 | travel time: 323 | distance: 6
-car ID: 53 | travel time: 324 | distance: 5
-car ID: 90 | travel time: 324 | distance: 4
-car ID: 162 | travel time: 325 | distance: 4
-car ID: 160 | travel time: 327 | distance: 4
-car ID: 296 | travel time: 327 | distance: 5
-car ID: 340 | travel time: 329 | distance: 8
-car ID: 353 | travel time: 330 | distance: 7
-car ID: 46 | travel time: 331 | distance: 6
-car ID: 204 | travel time: 335 | distance: 5
-car ID: 453 | travel time: 337 | distance: 6
-car ID: 28 | travel time: 338 | distance: 9
-car ID: 444 | travel time: 338 | distance: 3
-car ID: 494 | travel time: 338 | distance: 5
-car ID: 7 | travel time: 341 | distance: 6
-car ID: 496 | travel time: 343 | distance: 7
-car ID: 115 | travel time: 344 | distance: 3
-car ID: 333 | travel time: 344 | distance: 3
-car ID: 100 | travel time: 348 | distance: 6
-car ID: 424 | travel time: 348 | distance: 2
-car ID: 156 | travel time: 349 | distance: 4
-car ID: 235 | travel time: 349 | distance: 5
-car ID: 134 | travel time: 351 | distance: 4
-car ID: 180 | travel time: 352 | distance: 6
-car ID: 395 | travel time: 352 | distance: 7
-car ID: 124 | travel time: 353 | distance: 8
-car ID: 310 | travel time: 353 | distance: 2
-car ID: 360 | travel time: 353 | distance: 10
-car ID: 457 | travel time: 355 | distance: 7
-car ID: 143 | travel time: 358 | distance: 7
-car ID: 191 | travel time: 363 | distance: 5
-car ID: 292 | travel time: 363 | distance: 5
-car ID: 345 | travel time: 363 | distance: 5
-car ID: 154 | travel time: 364 | distance: 4
-car ID: 97 | travel time: 366 | distance: 8
-car ID: 247 | travel time: 368 | distance: 5
-car ID: 41 | travel time: 371 | distance: 7
-car ID: 275 | travel time: 371 | distance: 7
-car ID: 17 | travel time: 374 | distance: 6
-car ID: 98 | travel time: 375 | distance: 5
-car ID: 165 | travel time: 381 | distance: 5
-car ID: 460 | travel time: 381 | distance: 5
-car ID: 383 | travel time: 385 | distance: 5
-car ID: 208 | travel time: 386 | distance: 9
-car ID: 385 | travel time: 386 | distance: 6
-car ID: 268 | travel time: 388 | distance: 3
-car ID: 133 | travel time: 390 | distance: 8
-car ID: 223 | travel time: 391 | distance: 8
-car ID: 71 | travel time: 392 | distance: 3
-car ID: 349 | travel time: 392 | distance: 4
-car ID: 393 | travel time: 392 | distance: 7
-car ID: 86 | travel time: 393 | distance: 5
-car ID: 167 | travel time: 394 | distance: 7
-car ID: 10 | travel time: 396 | distance: 6
-car ID: 58 | travel time: 397 | distance: 8
-car ID: 117 | travel time: 397 | distance: 8
-car ID: 421 | travel time: 397 | distance: 14
-car ID: 169 | travel time: 399 | distance: 3
-car ID: 40 | travel time: 402 | distance: 7
-car ID: 189 | travel time: 403 | distance: 8
-car ID: 131 | travel time: 404 | distance: 5
-car ID: 450 | travel time: 404 | distance: 6
-car ID: 344 | travel time: 408 | distance: 8
-car ID: 362 | travel time: 409 | distance: 6
-car ID: 359 | travel time: 412 | distance: 10
-car ID: 489 | travel time: 416 | distance: 7
-car ID: 246 | travel time: 418 | distance: 4
-car ID: 192 | travel time: 420 | distance: 8
-car ID: 55 | travel time: 421 | distance: 7
-car ID: 477 | travel time: 421 | distance: 6
-car ID: 38 | travel time: 422 | distance: 2
-car ID: 319 | travel time: 425 | distance: 6
-car ID: 420 | travel time: 427 | distance: 6
-car ID: 152 | travel time: 428 | distance: 10
-car ID: 390 | travel time: 430 | distance: 6
-car ID: 326 | travel time: 431 | distance: 2
-car ID: 412 | travel time: 433 | distance: 6
-car ID: 89 | travel time: 435 | distance: 2
-car ID: 96 | travel time: 435 | distance: 10
-car ID: 348 | travel time: 436 | distance: 5
-car ID: 16 | travel time: 437 | distance: 8
-car ID: 68 | travel time: 437 | distance: 4
-car ID: 470 | travel time: 437 | distance: 8
-car ID: 422 | travel time: 438 | distance: 8
-car ID: 114 | travel time: 440 | distance: 8
-car ID: 183 | travel time: 442 | distance: 6
-car ID: 446 | travel time: 442 | distance: 5
-car ID: 220 | travel time: 443 | distance: 11
-car ID: 492 | travel time: 448 | distance: 8
-car ID: 15 | travel time: 451 | distance: 4
-car ID: 95 | travel time: 451 | distance: 5
-car ID: 358 | travel time: 453 | distance: 7
-car ID: 101 | travel time: 459 | distance: 2
-car ID: 145 | travel time: 459 | distance: 9
-car ID: 240 | travel time: 460 | distance: 9
-car ID: 243 | travel time: 461 | distance: 6
-car ID: 281 | travel time: 461 | distance: 7
-car ID: 78 | travel time: 462 | distance: 4
-car ID: 391 | travel time: 462 | distance: 5
-car ID: 159 | travel time: 465 | distance: 4
-car ID: 238 | travel time: 467 | distance: 9
-car ID: 135 | travel time: 468 | distance: 6
-car ID: 419 | travel time: 468 | distance: 4
-car ID: 411 | travel time: 469 | distance: 7
-car ID: 3 | travel time: 471 | distance: 8
-car ID: 81 | travel time: 475 | distance: 7
-car ID: 318 | travel time: 475 | distance: 5
-car ID: 491 | travel time: 475 | distance: 8
-car ID: 447 | travel time: 478 | distance: 9
-car ID: 20 | travel time: 480 | distance: 7
-car ID: 25 | travel time: 480 | distance: 6
-car ID: 72 | travel time: 485 | distance: 3
-car ID: 355 | travel time: 486 | distance: 8
-car ID: 330 | travel time: 489 | distance: 5
-car ID: 483 | travel time: 489 | distance: 4
-car ID: 119 | travel time: 490 | distance: 12
-car ID: 77 | travel time: 492 | distance: 10
-car ID: 351 | travel time: 493 | distance: 4
-car ID: 75 | travel time: 497 | distance: 5
-car ID: 54 | travel time: 498 | distance: 6
-car ID: 339 | travel time: 498 | distance: 7
-car ID: 91 | travel time: 501 | distance: 9
-car ID: 157 | travel time: 502 | distance: 6
-car ID: 239 | travel time: 504 | distance: 10
-car ID: 448 | travel time: 505 | distance: 8
-car ID: 19 | travel time: 507 | distance: 9
-car ID: 201 | travel time: 510 | distance: 10
-car ID: 291 | travel time: 514 | distance: 7
-car ID: 299 | travel time: 514 | distance: 8
-car ID: 66 | travel time: 515 | distance: 6
-car ID: 234 | travel time: 516 | distance: 8
-car ID: 346 | travel time: 516 | distance: 7
-car ID: 490 | travel time: 518 | distance: 5
-car ID: 21 | travel time: 519 | distance: 4
-car ID: 122 | travel time: 519 | distance: 3
-car ID: 488 | travel time: 519 | distance: 8
-car ID: 436 | travel time: 520 | distance: 5
-car ID: 274 | travel time: 526 | distance: 9
-car ID: 26 | travel time: 528 | distance: 8
-car ID: 212 | travel time: 530 | distance: 5
-car ID: 487 | travel time: 530 | distance: 6
-car ID: 279 | travel time: 531 | distance: 8
-car ID: 288 | travel time: 534 | distance: 5
-car ID: 499 | travel time: 537 | distance: 10
-car ID: 39 | travel time: 539 | distance: 14
-car ID: 52 | travel time: 539 | distance: 9
-car ID: 197 | travel time: 540 | distance: 8
-car ID: 382 | travel time: 541 | distance: 4
-car ID: 475 | travel time: 546 | distance: 7
-car ID: 94 | travel time: 547 | distance: 5
-car ID: 132 | travel time: 548 | distance: 7
-car ID: 449 | travel time: 548 | distance: 3
-car ID: 312 | travel time: 551 | distance: 8
-car ID: 127 | travel time: 552 | distance: 10
-car ID: 254 | travel time: 552 | distance: 9
-car ID: 331 | travel time: 552 | distance: 9
-car ID: 48 | travel time: 553 | distance: 4
-car ID: 113 | travel time: 553 | distance: 8
-car ID: 83 | travel time: 557 | distance: 4
-car ID: 150 | travel time: 561 | distance: 4
-car ID: 84 | travel time: 562 | distance: 4
-car ID: 350 | travel time: 562 | distance: 10
-car ID: 108 | travel time: 564 | distance: 6
-car ID: 300 | travel time: 564 | distance: 6
-car ID: 158 | travel time: 565 | distance: 11
-car ID: 73 | travel time: 569 | distance: 7
-car ID: 164 | travel time: 569 | distance: 9
-car ID: 80 | travel time: 578 | distance: 8
-car ID: 195 | travel time: 580 | distance: 14
-car ID: 126 | travel time: 582 | distance: 7
-car ID: 280 | travel time: 582 | distance: 3
-car ID: 22 | travel time: 584 | distance: 9
-car ID: 85 | travel time: 584 | distance: 8
-car ID: 196 | travel time: 585 | distance: 5
-car ID: 2 | travel time: 588 | distance: 8
-car ID: 107 | travel time: 589 | distance: 4
-car ID: 405 | travel time: 589 | distance: 4
-car ID: 230 | travel time: 590 | distance: 7
-car ID: 128 | travel time: 591 | distance: 12
-car ID: 377 | travel time: 594 | distance: 6
-car ID: 194 | travel time: 596 | distance: 11
-car ID: 429 | travel time: 598 | distance: 6
-car ID: 141 | travel time: 600 | distance: 7
-car ID: 187 | travel time: 601 | distance: 8
-car ID: 352 | travel time: 605 | distance: 9
-car ID: 306 | travel time: 606 | distance: 5
-car ID: 120 | travel time: 609 | distance: 7
-car ID: 337 | travel time: 609 | distance: 4
-car ID: 366 | travel time: 613 | distance: 4
-car ID: 140 | travel time: 615 | distance: 9
-car ID: 210 | travel time: 615 | distance: 11
-car ID: 92 | travel time: 616 | distance: 11
-car ID: 389 | travel time: 616 | distance: 9
-car ID: 37 | travel time: 617 | distance: 6
-car ID: 139 | travel time: 617 | distance: 10
-car ID: 338 | travel time: 623 | distance: 9
-car ID: 394 | travel time: 626 | distance: 7
-car ID: 177 | travel time: 629 | distance: 8
-car ID: 14 | travel time: 633 | distance: 5
-car ID: 485 | travel time: 633 | distance: 13
-car ID: 233 | travel time: 634 | distance: 3
-car ID: 116 | travel time: 636 | distance: 10
-car ID: 309 | travel time: 636 | distance: 8
-car ID: 401 | travel time: 638 | distance: 10
-car ID: 303 | travel time: 639 | distance: 7
-car ID: 232 | travel time: 642 | distance: 5
-car ID: 493 | travel time: 642 | distance: 5
-car ID: 264 | travel time: 644 | distance: 10
-car ID: 304 | travel time: 648 | distance: 9
-car ID: 307 | travel time: 648 | distance: 10
-car ID: 266 | travel time: 649 | distance: 12
-car ID: 367 | travel time: 651 | distance: 7
-car ID: 324 | travel time: 652 | distance: 10
-car ID: 465 | travel time: 652 | distance: 8
-car ID: 336 | travel time: 654 | distance: 9
-car ID: 147 | travel time: 658 | distance: 13
-car ID: 50 | travel time: 663 | distance: 7
-car ID: 469 | travel time: 663 | distance: 3
-car ID: 250 | travel time: 665 | distance: 11
-car ID: 323 | travel time: 667 | distance: 8
-car ID: 130 | travel time: 671 | distance: 14
-car ID: 31 | travel time: 682 | distance: 11
-car ID: 166 | travel time: 682 | distance: 8
-car ID: 495 | travel time: 685 | distance: 5
-car ID: 418 | travel time: 691 | distance: 9
-car ID: 462 | travel time: 692 | distance: 10
-car ID: 334 | travel time: 693 | distance: 13
-car ID: 278 | travel time: 694 | distance: 12
-car ID: 109 | travel time: 697 | distance: 6
-car ID: 265 | travel time: 700 | distance: 10
-car ID: 258 | travel time: 702 | distance: 11
-car ID: 171 | travel time: 703 | distance: 9
-car ID: 228 | travel time: 706 | distance: 9
-car ID: 248 | travel time: 706 | distance: 8
-car ID: 402 | travel time: 708 | distance: 6
-car ID: 439 | travel time: 709 | distance: 11
-car ID: 237 | travel time: 711 | distance: 10
-car ID: 36 | travel time: 714 | distance: 10
-car ID: 253 | travel time: 715 | distance: 11
-car ID: 406 | travel time: 716 | distance: 9
-car ID: 378 | travel time: 717 | distance: 15
-car ID: 111 | travel time: 718 | distance: 7
-car ID: 435 | travel time: 719 | distance: 11
-car ID: 287 | travel time: 720 | distance: 10
-car ID: 4 | travel time: 722 | distance: 14
-car ID: 255 | travel time: 724 | distance: 6
-car ID: 188 | travel time: 725 | distance: 8
-car ID: 259 | travel time: 726 | distance: 7
-car ID: 149 | travel time: 728 | distance: 10
-car ID: 294 | travel time: 728 | distance: 6
-car ID: 399 | travel time: 730 | distance: 11
-car ID: 118 | travel time: 731 | distance: 7
-car ID: 184 | travel time: 734 | distance: 11
-car ID: 225 | travel time: 735 | distance: 5
-car ID: 361 | travel time: 735 | distance: 8
-car ID: 384 | travel time: 740 | distance: 9
-car ID: 397 | travel time: 740 | distance: 10
-car ID: 256 | travel time: 742 | distance: 7
-car ID: 33 | travel time: 743 | distance: 6
-car ID: 59 | travel time: 744 | distance: 9
-car ID: 343 | travel time: 747 | distance: 7
-car ID: 178 | travel time: 753 | distance: 11
-car ID: 403 | travel time: 753 | distance: 7
-car ID: 313 | travel time: 756 | distance: 7
-car ID: 87 | travel time: 759 | distance: 7
-car ID: 442 | travel time: 759 | distance: 6
-car ID: 0 | travel time: 766 | distance: 12
-car ID: 93 | travel time: 766 | distance: 11
-car ID: 199 | travel time: 770 | distance: 6
-car ID: 413 | travel time: 772 | distance: 7
-car ID: 497 | travel time: 774 | distance: 9
-car ID: 112 | travel time: 776 | distance: 9
-car ID: 459 | travel time: 779 | distance: 5
-car ID: 173 | travel time: 781 | distance: 10
-car ID: 273 | travel time: 781 | distance: 11
-car ID: 34 | travel time: 782 | distance: 10
-car ID: 277 | travel time: 782 | distance: 9
-car ID: 314 | travel time: 785 | distance: 5
-car ID: 23 | travel time: 789 | distance: 10
-car ID: 129 | travel time: 790 | distance: 5
-car ID: 270 | travel time: 790 | distance: 9
-car ID: 290 | travel time: 790 | distance: 12
-car ID: 392 | travel time: 791 | distance: 10
-car ID: 454 | travel time: 805 | distance: 12
-car ID: 375 | travel time: 809 | distance: 12
-car ID: 425 | travel time: 814 | distance: 11
-car ID: 260 | travel time: 816 | distance: 14
-car ID: 176 | travel time: 822 | distance: 8
-car ID: 56 | travel time: 825 | distance: 10
-car ID: 67 | travel time: 825 | distance: 11
-car ID: 328 | travel time: 826 | distance: 6
-car ID: 18 | travel time: 828 | distance: 14
-car ID: 105 | travel time: 828 | distance: 14
-car ID: 428 | travel time: 829 | distance: 10
-car ID: 414 | travel time: 830 | distance: 8
-car ID: 218 | travel time: 831 | distance: 7
-car ID: 342 | travel time: 832 | distance: 13
-car ID: 427 | travel time: 839 | distance: 9
-car ID: 106 | travel time: 841 | distance: 10
-car ID: 121 | travel time: 843 | distance: 11
-car ID: 347 | travel time: 846 | distance: 8
-car ID: 276 | travel time: 849 | distance: 11
-car ID: 387 | travel time: 854 | distance: 10
-car ID: 221 | travel time: 855 | distance: 7
-car ID: 396 | travel time: 855 | distance: 11
-car ID: 295 | travel time: 856 | distance: 8
-car ID: 365 | travel time: 860 | distance: 9
-car ID: 388 | travel time: 862 | distance: 11
-car ID: 471 | travel time: 866 | distance: 10
-car ID: 473 | travel time: 870 | distance: 13
-car ID: 88 | travel time: 874 | distance: 10
-car ID: 381 | travel time: 874 | distance: 8
-car ID: 298 | travel time: 876 | distance: 10
-car ID: 138 | travel time: 877 | distance: 12
-car ID: 209 | travel time: 879 | distance: 9
-car ID: 321 | travel time: 881 | distance: 7
-car ID: 148 | travel time: 883 | distance: 15
-car ID: 458 | travel time: 885 | distance: 16
-car ID: 463 | travel time: 891 | distance: 11
-car ID: 286 | travel time: 896 | distance: 8
-car ID: 244 | travel time: 897 | distance: 10
-car ID: 284 | travel time: 897 | distance: 11
-car ID: 1 | travel time: 900 | distance: 11
-car ID: 261 | travel time: 902 | distance: 10
-car ID: 486 | travel time: 902 | distance: 10
-car ID: 168 | travel time: 903 | distance: 6
-car ID: 8 | travel time: 907 | distance: 11
-car ID: 431 | travel time: 913 | distance: 7
-car ID: 466 | travel time: 915 | distance: 9
-car ID: 423 | travel time: 918 | distance: 9
-car ID: 461 | travel time: 919 | distance: 13
-car ID: 479 | travel time: 920 | distance: 9
-car ID: 63 | travel time: 921 | distance: 12
-car ID: 12 | travel time: 924 | distance: 11
-car ID: 305 | travel time: 939 | distance: 9
-car ID: 57 | travel time: 940 | distance: 12
-car ID: 484 | travel time: 940 | distance: 8
-car ID: 30 | travel time: 947 | distance: 11
-car ID: 372 | travel time: 947 | distance: 9
-car ID: 222 | travel time: 954 | distance: 11
-car ID: 354 | travel time: 957 | distance: 10
-car ID: 432 | travel time: 958 | distance: 11
-car ID: 179 | travel time: 962 | distance: 13
-car ID: 198 | travel time: 969 | distance: 13
-car ID: 174 | travel time: 972 | distance: 7
-car ID: 24 | travel time: 974 | distance: 10
-car ID: 438 | travel time: 974 | distance: 16
-car ID: 29 | travel time: 981 | distance: 13
-car ID: 74 | travel time: 983 | distance: 11
-car ID: 193 | travel time: 995 | distance: 8
-car ID: 371 | travel time: 1027 | distance: 17
-car ID: 217 | travel time: 1033 | distance: 15
-car ID: 478 | travel time: 1033 | distance: 13
-car ID: 200 | travel time: 1043 | distance: 11
-car ID: 434 | travel time: 1057 | distance: 7
-car ID: 161 | travel time: 1082 | distance: 13
-car ID: 44 | travel time: 1087 | distance: 14
-car ID: 472 | travel time: 1100 | distance: 16
-car ID: 79 | travel time: 1146 | distance: 14
+53 |  67 |  2
+132 |  77 |  1
+166 |  110 |  2
+245 |  116 |  4
+103 |  159 |  2
+164 |  185 |  6
+37 |  205 |  2
+171 |  219 |  2
+476 |  245 |  6
+294 |  269 |  1
+173 |  282 |  4
+261 |  292 |  2
+331 |  293 |  2
+375 |  323 |  3
+277 |  339 |  4
+69 |  395 |  2
+133 |  423 |  3
+315 |  425 |  3
+427 |  433 |  3
+189 |  436 |  6
+27 |  442 |  4
+235 |  446 |  3
+159 |  472 |  3
+322 |  498 |  8
+63 |  518 |  4
+76 |  529 |  5
+211 |  533 |  5
+335 |  539 |  5
+127 |  543 |  3
+423 |  544 |  2
+85 |  560 |  3
+483 |  563 |  3
+382 |  569 |  3
+149 |  575 |  7
+421 |  597 |  4
+24 |  600 |  6
+143 |  604 |  3
+370 |  626 |  5
+70 |  630 |  5
+93 |  634 |  14
+57 |  638 |  2
+160 |  639 |  6
+190 |  642 |  4
+31 |  645 |  14
+78 |  651 |  3
+39 |  673 |  7
+390 |  686 |  2
+47 |  693 |  6
+420 |  697 |  6
+363 |  699 |  4
+111 |  702 |  5
+459 |  711 |  3
+280 |  716 |  3
+125 |  721 |  5
+102 |  727 |  5
+114 |  732 |  5
+169 |  735 |  7
+232 |  750 |  9
+255 |  750 |  3
+493 |  751 |  5
+105 |  753 |  14
+388 |  753 |  5
+137 |  757 |  7
+117 |  774 |  6
+201 |  774 |  4
+108 |  776 |  4
+350 |  787 |  6
+284 |  802 |  5
+494 |  804 |  9
+209 |  805 |  10
+10 |  839 |  5
+231 |  842 |  2
+154 |  857 |  7
+433 |  864 |  7
+247 |  872 |  5
+480 |  883 |  2
+296 |  890 |  10
+344 |  893 |  4
+469 |  902 |  8
+309 |  913 |  4
+371 |  930 |  8
+389 |  949 |  10
+401 |  951 |  6
+9 |  995 |  5
+165 |  998 |  5
+95 |  1016 |  11
+426 |  1017 |  7
+403 |  1031 |  5
+73 |  1036 |  3
+392 |  1042 |  13
+152 |  1043 |  5
+461 |  1050 |  5
+33 |  1064 |  5
+91 |  1064 |  5
+413 |  1067 |  10
+110 |  1072 |  4
+282 |  1076 |  3
+438 |  1085 |  11
+321 |  1092 |  8
+219 |  1093 |  6
+415 |  1130 |  8
+244 |  1131 |  8
+366 |  1131 |  8
+174 |  1135 |  3
+497 |  1135 |  5
+447 |  1136 |  6
+487 |  1139 |  6
+302 |  1142 |  9
+204 |  1160 |  9
+257 |  1164 |  7
+267 |  1165 |  2
+278 |  1165 |  5
+88 |  1175 |  9
+210 |  1182 |  11
+256 |  1182 |  6
+178 |  1204 |  12
+439 |  1210 |  2
+156 |  1211 |  7
+434 |  1237 |  4
+292 |  1242 |  5
+5 |  1254 |  10
+48 |  1254 |  5
+89 |  1284 |  4
+340 |  1297 |  7
+49 |  1299 |  8
+40 |  1309 |  6
+258 |  1313 |  9
+97 |  1321 |  7
+379 |  1321 |  11
+198 |  1324 |  12
+203 |  1331 |  9
+8 |  1337 |  6
+197 |  1340 |  10
+285 |  1345 |  3
+265 |  1346 |  4
+474 |  1349 |  5
+75 |  1358 |  10
+191 |  1364 |  15
+151 |  1366 |  8
+395 |  1370 |  8
+167 |  1390 |  10
+448 |  1410 |  9
+193 |  1413 |  8
+106 |  1421 |  6
+20 |  1424 |  7
+268 |  1424 |  7
+283 |  1428 |  5
+2 |  1464 |  9
+155 |  1475 |  9
+158 |  1475 |  8
+94 |  1478 |  9
+354 |  1481 |  8
+52 |  1487 |  6
+412 |  1494 |  4
+357 |  1505 |  7
+384 |  1505 |  10
+214 |  1512 |  11
+199 |  1514 |  7
+36 |  1546 |  8
+470 |  1548 |  13
+239 |  1558 |  9
+362 |  1573 |  6
+80 |  1574 |  7
+228 |  1594 |  6
+374 |  1606 |  13
+416 |  1608 |  6
+324 |  1615 |  14
+253 |  1618 |  8
+233 |  1639 |  5
+430 |  1642 |  6
+122 |  1648 |  8
+113 |  1657 |  12
+301 |  1658 |  10
+1 |  1660 |  10
+436 |  1665 |  15
+263 |  1666 |  8
+359 |  1681 |  9
+7 |  1683 |  6
+25 |  1698 |  9
+342 |  1699 |  6
+349 |  1702 |  9
+488 |  1709 |  4
+223 |  1712 |  13
+35 |  1721 |  5
+365 |  1724 |  4
+418 |  1730 |  13
+338 |  1743 |  12
+226 |  1744 |  9
+376 |  1751 |  7
+181 |  1752 |  8
+23 |  1755 |  7
+202 |  1758 |  4
+157 |  1762 |  11
+0 |  1764 |  8
+153 |  1764 |  5
+179 |  1769 |  14
+148 |  1784 |  9
+399 |  1785 |  14
+343 |  1792 |  14
+41 |  1795 |  9
+216 |  1803 |  6
+241 |  1811 |  17
+454 |  1833 |  8
+351 |  1840 |  5
+404 |  1846 |  8
+236 |  1849 |  11
+394 |  1855 |  7
+387 |  1857 |  15
+466 |  1865 |  6
+136 |  1870 |  7
+391 |  1875 |  13
+435 |  1886 |  8
+38 |  1906 |  10
+130 |  1921 |  14
+172 |  1933 |  9
+402 |  1944 |  12
+120 |  1968 |  6
+150 |  1969 |  8
+220 |  1970 |  8
+274 |  1971 |  9
+312 |  1978 |  12
+319 |  1979 |  10
+337 |  1985 |  8
+361 |  1990 |  5
+141 |  1995 |  5
+123 |  2000 |  7
+299 |  2000 |  8
+317 |  2001 |  9
+393 |  2008 |  7
+409 |  2025 |  9
+385 |  2026 |  11
+411 |  2026 |  6
+272 |  2031 |  11
+237 |  2039 |  16
+259 |  2039 |  12
+248 |  2064 |  10
+65 |  2065 |  5
+377 |  2079 |  9
+124 |  2100 |  8
+281 |  2102 |  5
+477 |  2103 |  17
+464 |  2111 |  9
+490 |  2125 |  15
+460 |  2138 |  6
+326 |  2146 |  6
+405 |  2156 |  7
+101 |  2173 |  8
+188 |  2181 |  7
+463 |  2191 |  6
+26 |  2208 |  6
+356 |  2208 |  9
+306 |  2211 |  12
+449 |  2211 |  7
+14 |  2216 |  9
+45 |  2216 |  15
+380 |  2216 |  6
+308 |  2219 |  13
+320 |  2222 |  10
+408 |  2237 |  17
+242 |  2247 |  13
+249 |  2249 |  13
+492 |  2255 |  8
+485 |  2259 |  5
+484 |  2263 |  8
+452 |  2269 |  15
+218 |  2270 |  19
+196 |  2275 |  18
+260 |  2275 |  12
+451 |  2289 |  11
+289 |  2290 |  12
+316 |  2290 |  7
+6 |  2300 |  16
+128 |  2301 |  10
+222 |  2306 |  7
+187 |  2309 |  11
+90 |  2310 |  5
+328 |  2317 |  6
+440 |  2318 |  15
+333 |  2333 |  6
+72 |  2335 |  17
+18 |  2350 |  5
+453 |  2350 |  13
+192 |  2352 |  11
+443 |  2361 |  12
+341 |  2374 |  7
+419 |  2378 |  8
+121 |  2385 |  8
+135 |  2402 |  13
+273 |  2436 |  7
+30 |  2439 |  10
+378 |  2444 |  12
+482 |  2444 |  6
+367 |  2455 |  18
+305 |  2461 |  9
+13 |  2474 |  14
+264 |  2488 |  10
+74 |  2517 |  4
+336 |  2533 |  6
+499 |  2534 |  11
+81 |  2540 |  12
+184 |  2546 |  10
+131 |  2553 |  5
+19 |  2558 |  10
+175 |  2576 |  6
+42 |  2589 |  10
+61 |  2607 |  13
+176 |  2615 |  10
+298 |  2618 |  7
+99 |  2619 |  15
+486 |  2632 |  9
+51 |  2654 |  7
+495 |  2666 |  14
+22 |  2672 |  11
+46 |  2672 |  9
+66 |  2695 |  6
+162 |  2696 |  11
+431 |  2697 |  9
+96 |  2699 |  19
+109 |  2699 |  10
+234 |  2707 |  12
+473 |  2748 |  9
+208 |  2763 |  5
+339 |  2766 |  13
+286 |  2768 |  7
+290 |  2773 |  12
+327 |  2776 |  14
+352 |  2776 |  12
+54 |  2777 |  11
+410 |  2788 |  11
+147 |  2791 |  7
+207 |  2799 |  12
+86 |  2806 |  24
+200 |  2810 |  11
+195 |  2817 |  13
+428 |  2822 |  6
+489 |  2824 |  10
+213 |  2846 |  10
+87 |  2854 |  17
+12 |  2855 |  13
+21 |  2855 |  10
+446 |  2864 |  9
+254 |  2867 |  9
+373 |  2872 |  16
+479 |  2877 |  12
+444 |  2879 |  19
+32 |  2892 |  8
+100 |  2898 |  16
+491 |  2914 |  9
+346 |  2922 |  11
+180 |  2933 |  8
+381 |  2945 |  17
+83 |  2958 |  9
+386 |  2988 |  12
+225 |  3010 |  10
+230 |  3016 |  15
+364 |  3021 |  16
+429 |  3025 |  16
+360 |  3028 |  11
+142 |  3064 |  20
+266 |  3065 |  20
+224 |  3066 |  12
+304 |  3072 |  12
+355 |  3081 |  11
+358 |  3088 |  17
+270 |  3092 |  13
+59 |  3103 |  7
+325 |  3116 |  10
+92 |  3119 |  12
+407 |  3133 |  15
+496 |  3135 |  18
+275 |  3139 |  10
+170 |  3144 |  15
+252 |  3145 |  16
+3 |  3153 |  8
+4 |  3154 |  11
+77 |  3165 |  17
+288 |  3166 |  5
+250 |  3177 |  13
+372 |  3180 |  15
+29 |  3182 |  18
+318 |  3210 |  13
+126 |  3219 |  16
+205 |  3246 |  15
+424 |  3251 |  19
+62 |  3257 |  14
+139 |  3263 |  11
+215 |  3282 |  9
+345 |  3294 |  11
+183 |  3298 |  9
+287 |  3309 |  11
+79 |  3314 |  9
+291 |  3325 |  6
+15 |  3346 |  6
+16 |  3365 |  9
+11 |  3367 |  15
+115 |  3382 |  11
+34 |  3384 |  14
+58 |  3414 |  15
+398 |  3421 |  10
+144 |  3429 |  11
+323 |  3443 |  13
+161 |  3449 |  12
+397 |  3453 |  10
+465 |  3453 |  18
+194 |  3461 |  10
+271 |  3463 |  16
+82 |  3467 |  18
+481 |  3505 |  19
+297 |  3512 |  14
+472 |  3528 |  9
+119 |  3532 |  11
+217 |  3542 |  10
+246 |  3583 |  12
+468 |  3594 |  11
+238 |  3596 |  17
+227 |  3598 |  20
+457 |  3610 |  7
+43 |  3623 |  14
+303 |  3623 |  11
+17 |  3625 |  15
+458 |  3630 |  14
+437 |  3634 |  17
+300 |  3648 |  8
+212 |  3650 |  15
+330 |  3672 |  14
+329 |  3684 |  12
+432 |  3709 |  18
+56 |  3731 |  12
+251 |  3737 |  11
+116 |  3775 |  16
+71 |  3809 |  8
+276 |  3846 |  10
+206 |  3876 |  13
+84 |  3891 |  21
+396 |  3891 |  15
+422 |  3895 |  18
+243 |  3912 |  13
+417 |  3927 |  11
+44 |  3949 |  13
+347 |  3957 |  18
+140 |  3961 |  19
+314 |  3976 |  15
+348 |  4027 |  15
+134 |  4029 |  20
+67 |  4035 |  17
+295 |  4041 |  9
+498 |  4046 |  9
+310 |  4055 |  15
+240 |  4080 |  20
+353 |  4139 |  12
+64 |  4154 |  22
+471 |  4171 |  16
+98 |  4173 |  15
+229 |  4177 |  20
+369 |  4178 |  23
+425 |  4197 |  17
+177 |  4202 |  10
+60 |  4213 |  21
+462 |  4224 |  13
+442 |  4231 |  22
+28 |  4242 |  17
+313 |  4250 |  18
+467 |  4321 |  14
+146 |  4401 |  18
+368 |  4414 |  13
+307 |  4417 |  21
+456 |  4419 |  16
+168 |  4437 |  16
+221 |  4446 |  14
+406 |  4477 |  20
+475 |  4515 |  13
+332 |  4535 |  16
+445 |  4566 |  10
+107 |  4576 |  18
+55 |  4586 |  22
+311 |  4627 |  21
+400 |  4627 |  18
+441 |  4650 |  20
+478 |  4671 |  16
+129 |  4677 |  13
+455 |  4683 |  14
+118 |  4701 |  9
+182 |  4702 |  17
+262 |  4715 |  20
+112 |  4738 |  11
+414 |  4747 |  15
+50 |  4810 |  15
+186 |  4813 |  13
+279 |  4820 |  11
+450 |  4825 |  19
+68 |  4877 |  11
+163 |  5005 |  11
+383 |  5021 |  21
+104 |  5081 |  14
+145 |  5094 |  25
+269 |  5198 |  13
+185 |  5204 |  11
+138 |  5241 |  16
+293 |  5252 |  13
+334 |  5291 |  18
+92 |  71 |  2
+365 |  79 |  1
+247 |  84 |  1
+91 |  131 |  1
+84 |  133 |  2
+136 |  163 |  1
+457 |  163 |  1
+123 |  291 |  2
+31 |  305 |  4
+149 |  367 |  2
+94 |  372 |  1
+51 |  436 |  5
+301 |  452 |  3
+263 |  457 |  4
+486 |  491 |  5
+468 |  498 |  5
+389 |  502 |  3
+383 |  518 |  6
+412 |  521 |  3
+481 |  533 |  6
+474 |  547 |  1
+96 |  548 |  3
+23 |  563 |  4
+195 |  568 |  4
+57 |  569 |  2
+116 |  570 |  6
+188 |  582 |  3
+183 |  593 |  6
+76 |  605 |  11
+402 |  615 |  1
+326 |  619 |  4
+219 |  622 |  3
+420 |  625 |  3
+24 |  627 |  6
+431 |  628 |  4
+73 |  630 |  5
+463 |  637 |  5
+410 |  654 |  3
+230 |  681 |  6
+90 |  683 |  7
+8 |  690 |  4
+235 |  690 |  3
+11 |  699 |  4
+425 |  701 |  3
+130 |  725 |  3
+491 |  743 |  4
+48 |  771 |  5
+305 |  778 |  4
+40 |  779 |  10
+34 |  803 |  4
+308 |  803 |  6
+315 |  824 |  2
+72 |  832 |  8
+359 |  836 |  3
+272 |  842 |  7
+267 |  844 |  3
+86 |  846 |  5
+449 |  849 |  3
+256 |  876 |  4
+28 |  884 |  4
+85 |  904 |  6
+158 |  907 |  7
+347 |  922 |  6
+12 |  928 |  4
+216 |  950 |  7
+438 |  952 |  3
+488 |  953 |  2
+18 |  957 |  6
+480 |  959 |  2
+196 |  977 |  14
+221 |  989 |  10
+384 |  993 |  10
+61 |  1007 |  8
+459 |  1015 |  10
+395 |  1016 |  4
+361 |  1018 |  7
+393 |  1031 |  11
+470 |  1048 |  5
+6 |  1051 |  7
+391 |  1059 |  3
+35 |  1083 |  3
+14 |  1090 |  5
+102 |  1092 |  3
+469 |  1094 |  4
+13 |  1101 |  4
+170 |  1103 |  4
+185 |  1117 |  9
+206 |  1131 |  7
+441 |  1135 |  6
+376 |  1160 |  5
+56 |  1181 |  9
+432 |  1184 |  5
+127 |  1187 |  6
+54 |  1193 |  13
+121 |  1198 |  7
+197 |  1201 |  7
+105 |  1204 |  5
+453 |  1204 |  4
+97 |  1211 |  9
+371 |  1223 |  7
+329 |  1241 |  6
+66 |  1242 |  8
+378 |  1243 |  5
+33 |  1280 |  8
+394 |  1288 |  15
+418 |  1290 |  3
+80 |  1306 |  8
+134 |  1311 |  6
+238 |  1315 |  11
+167 |  1316 |  14
+352 |  1319 |  7
+251 |  1340 |  6
+88 |  1344 |  12
+335 |  1368 |  4
+357 |  1370 |  2
+122 |  1379 |  8
+140 |  1382 |  7
+414 |  1382 |  10
+203 |  1383 |  8
+448 |  1397 |  9
+214 |  1405 |  7
+150 |  1408 |  8
+245 |  1411 |  6
+112 |  1412 |  9
+144 |  1444 |  13
+293 |  1452 |  10
+497 |  1462 |  10
+354 |  1470 |  7
+325 |  1492 |  6
+280 |  1494 |  6
+194 |  1496 |  7
+319 |  1499 |  11
+445 |  1503 |  10
+65 |  1511 |  5
+156 |  1513 |  2
+424 |  1513 |  5
+0 |  1521 |  9
+348 |  1521 |  6
+355 |  1529 |  6
+205 |  1531 |  8
+139 |  1533 |  7
+462 |  1548 |  9
+186 |  1550 |  6
+321 |  1567 |  7
+311 |  1568 |  10
+154 |  1582 |  5
+323 |  1598 |  4
+171 |  1602 |  6
+137 |  1612 |  3
+50 |  1613 |  10
+52 |  1622 |  4
+184 |  1624 |  11
+135 |  1627 |  6
+276 |  1629 |  12
+199 |  1632 |  5
+32 |  1633 |  9
+358 |  1641 |  7
+27 |  1655 |  6
+440 |  1660 |  13
+277 |  1673 |  11
+324 |  1690 |  5
+168 |  1704 |  7
+176 |  1711 |  9
+113 |  1720 |  9
+327 |  1730 |  8
+198 |  1733 |  3
+340 |  1738 |  13
+3 |  1741 |  13
+406 |  1756 |  6
+416 |  1757 |  7
+2 |  1759 |  7
+117 |  1763 |  3
+330 |  1764 |  3
+259 |  1766 |  12
+372 |  1766 |  4
+368 |  1779 |  10
+385 |  1782 |  6
+270 |  1792 |  7
+162 |  1808 |  11
+81 |  1820 |  5
+366 |  1822 |  10
+231 |  1823 |  15
+37 |  1852 |  8
+390 |  1860 |  9
+451 |  1863 |  6
+299 |  1866 |  6
+106 |  1868 |  8
+164 |  1873 |  5
+337 |  1878 |  14
+493 |  1885 |  8
+233 |  1886 |  5
+218 |  1892 |  3
+187 |  1894 |  12
+175 |  1902 |  10
+396 |  1907 |  5
+191 |  1910 |  9
+388 |  1921 |  7
+318 |  1936 |  6
+279 |  1938 |  6
+489 |  1941 |  7
+300 |  1953 |  15
+68 |  1962 |  7
+419 |  1987 |  11
+234 |  1992 |  9
+313 |  1994 |  16
+302 |  1995 |  5
+59 |  1996 |  16
+163 |  2007 |  5
+446 |  2012 |  16
+292 |  2023 |  7
+103 |  2024 |  6
+295 |  2028 |  12
+220 |  2043 |  8
+63 |  2045 |  6
+141 |  2046 |  8
+258 |  2082 |  13
+232 |  2088 |  8
+342 |  2093 |  13
+180 |  2095 |  13
+287 |  2145 |  11
+461 |  2149 |  12
+297 |  2155 |  5
+148 |  2157 |  12
+248 |  2157 |  4
+240 |  2158 |  12
+332 |  2158 |  10
+38 |  2162 |  9
+338 |  2170 |  11
+110 |  2177 |  6
+274 |  2177 |  3
+310 |  2182 |  12
+271 |  2195 |  12
+339 |  2195 |  8
+193 |  2212 |  15
+458 |  2218 |  8
+143 |  2223 |  9
+381 |  2223 |  16
+165 |  2242 |  4
+472 |  2248 |  8
+477 |  2263 |  16
+379 |  2264 |  15
+351 |  2271 |  10
+213 |  2275 |  7
+229 |  2276 |  7
+417 |  2278 |  9
+356 |  2288 |  10
+401 |  2295 |  9
+115 |  2327 |  12
+190 |  2327 |  5
+7 |  2331 |  8
+128 |  2354 |  11
+227 |  2373 |  10
+120 |  2378 |  8
+202 |  2379 |  16
+405 |  2388 |  7
+484 |  2389 |  7
+262 |  2391 |  6
+67 |  2395 |  15
+479 |  2396 |  13
+407 |  2399 |  8
+174 |  2405 |  8
+64 |  2418 |  15
+99 |  2427 |  10
+483 |  2434 |  15
+157 |  2450 |  9
+43 |  2455 |  7
+236 |  2471 |  14
+49 |  2473 |  13
+133 |  2473 |  18
+253 |  2496 |  9
+349 |  2498 |  12
+265 |  2512 |  14
+291 |  2528 |  7
+444 |  2531 |  14
+494 |  2531 |  8
+255 |  2535 |  13
+294 |  2539 |  12
+380 |  2541 |  9
+69 |  2542 |  10
+320 |  2548 |  14
+370 |  2561 |  6
+79 |  2564 |  15
+403 |  2583 |  12
+131 |  2616 |  8
+423 |  2618 |  13
+250 |  2620 |  6
+201 |  2624 |  10
+266 |  2629 |  11
+278 |  2644 |  8
+155 |  2658 |  12
+17 |  2659 |  13
+268 |  2662 |  7
+269 |  2667 |  15
+147 |  2673 |  16
+316 |  2683 |  8
+142 |  2691 |  12
+284 |  2710 |  9
+490 |  2732 |  10
+475 |  2738 |  20
+331 |  2764 |  18
+222 |  2775 |  12
+397 |  2780 |  9
+336 |  2781 |  13
+172 |  2787 |  12
+177 |  2791 |  12
+211 |  2792 |  5
+60 |  2814 |  9
+303 |  2815 |  10
+275 |  2821 |  8
+312 |  2849 |  20
+132 |  2858 |  10
+382 |  2870 |  19
+71 |  2888 |  15
+244 |  2890 |  7
+161 |  2902 |  13
+386 |  2907 |  16
+173 |  2908 |  16
+377 |  2910 |  9
+20 |  2924 |  13
+498 |  2929 |  17
+30 |  2932 |  15
+179 |  2945 |  9
+254 |  2962 |  11
+82 |  2967 |  9
+478 |  2969 |  14
+496 |  2969 |  21
+285 |  2970 |  7
+447 |  2973 |  12
+350 |  2977 |  12
+373 |  2977 |  9
+101 |  2984 |  12
+145 |  2987 |  9
+243 |  3002 |  10
+77 |  3013 |  15
+159 |  3022 |  16
+166 |  3055 |  18
+261 |  3055 |  7
+192 |  3061 |  17
+160 |  3065 |  11
+93 |  3069 |  8
+29 |  3070 |  13
+208 |  3078 |  12
+495 |  3080 |  18
+456 |  3085 |  13
+181 |  3101 |  12
+151 |  3122 |  11
+153 |  3129 |  14
+98 |  3142 |  14
+10 |  3145 |  12
+210 |  3145 |  10
+19 |  3151 |  12
+485 |  3152 |  15
+464 |  3160 |  8
+83 |  3176 |  12
+58 |  3179 |  13
+169 |  3190 |  12
+87 |  3198 |  14
+367 |  3208 |  15
+237 |  3227 |  8
+460 |  3263 |  14
+260 |  3265 |  13
+442 |  3289 |  12
+467 |  3305 |  8
+364 |  3309 |  21
+225 |  3314 |  13
+78 |  3315 |  8
+286 |  3346 |  10
+118 |  3355 |  14
+25 |  3360 |  9
+47 |  3362 |  20
+22 |  3371 |  20
+209 |  3374 |  7
+411 |  3377 |  10
+62 |  3385 |  11
+455 |  3388 |  16
+9 |  3398 |  11
+200 |  3412 |  12
+360 |  3425 |  11
+74 |  3441 |  9
+45 |  3455 |  12
+89 |  3498 |  12
+124 |  3510 |  18
+257 |  3518 |  14
+146 |  3520 |  12
+109 |  3526 |  7
+434 |  3530 |  8
+399 |  3535 |  14
+499 |  3537 |  9
+466 |  3575 |  13
+212 |  3583 |  11
+492 |  3595 |  9
+239 |  3604 |  12
+39 |  3605 |  16
+422 |  3626 |  13
+426 |  3652 |  16
+454 |  3656 |  11
+55 |  3665 |  10
+104 |  3672 |  11
+264 |  3689 |  15
+125 |  3690 |  11
+427 |  3698 |  14
+119 |  3701 |  9
+362 |  3711 |  17
+307 |  3716 |  13
+26 |  3720 |  17
+217 |  3729 |  11
+471 |  3734 |  17
+421 |  3738 |  17
+400 |  3744 |  8
+4 |  3754 |  18
+298 |  3756 |  7
+1 |  3776 |  15
+204 |  3818 |  15
+304 |  3826 |  11
+100 |  3829 |  14
+476 |  3840 |  20
+182 |  3861 |  10
+152 |  3867 |  15
+16 |  3870 |  16
+111 |  3885 |  21
+273 |  3894 |  12
+215 |  3895 |  13
+345 |  3909 |  19
+129 |  3912 |  17
+296 |  3913 |  17
+107 |  3914 |  18
+288 |  3922 |  10
+487 |  3929 |  19
+36 |  3938 |  12
+138 |  3951 |  20
+353 |  3968 |  16
+41 |  3979 |  14
+473 |  3987 |  21
+207 |  3995 |  12
+429 |  4008 |  9
+249 |  4044 |  14
+430 |  4046 |  14
+42 |  4047 |  19
+226 |  4054 |  20
+53 |  4056 |  18
+334 |  4069 |  14
+343 |  4083 |  14
+333 |  4096 |  16
+228 |  4097 |  13
+70 |  4111 |  10
+108 |  4121 |  21
+465 |  4133 |  12
+435 |  4169 |  17
+387 |  4171 |  13
+46 |  4177 |  16
+281 |  4185 |  21
+126 |  4203 |  14
+178 |  4243 |  12
+374 |  4244 |  19
+363 |  4265 |  11
+443 |  4266 |  16
+290 |  4267 |  11
+482 |  4289 |  23
+341 |  4291 |  19
+5 |  4294 |  10
+433 |  4341 |  15
+309 |  4375 |  17
+252 |  4385 |  14
+408 |  4388 |  13
+398 |  4420 |  18
+404 |  4428 |  10
+428 |  4470 |  25
+289 |  4522 |  24
+306 |  4581 |  17
+346 |  4594 |  12
+415 |  4600 |  15
+392 |  4603 |  24
+223 |  4613 |  18
+283 |  4616 |  18
+328 |  4620 |  15
+15 |  4622 |  14
+436 |  4667 |  11
+114 |  4689 |  10
+242 |  4701 |  18
+314 |  4704 |  14
+409 |  4720 |  16
+452 |  4773 |  14
+437 |  4790 |  11
+282 |  4842 |  23
+369 |  4886 |  13
+75 |  4896 |  9
+241 |  4937 |  19
+21 |  4959 |  23
+450 |  4967 |  18
+439 |  4983 |  25
+95 |  5049 |  21
+322 |  5072 |  18
+224 |  5084 |  23
+413 |  5164 |  16
+344 |  5215 |  17
+189 |  5258 |  19
+375 |  5263 |  17
+246 |  5398 |  18
+317 |  5400 |  24
+44 |  5475 |  17
