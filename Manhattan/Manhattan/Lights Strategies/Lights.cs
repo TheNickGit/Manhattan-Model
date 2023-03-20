@@ -3,7 +3,7 @@
     public L_3Right1Left l_3Right1Left;
     public L_AllRight l_AllRight;
     public L_StraightAndRight l_StraightAndRight;
-    public L_OneDirection1R l_OneDirection1R;
+    public L_OneDirection l_OneDirection;
     public L_2Right2Left l_2Right2Left;
 
     public Lights(Dictionary<LinkedList<Car>, bool> incomingMap,
@@ -27,7 +27,7 @@
             inStoN, inStoW, inStoE,
             inWtoN, inWtoE, inWtoS);
 
-        l_OneDirection1R = new L_OneDirection1R(incomingMap, inNtoE, inNtoS, inNtoW,
+        l_OneDirection = new L_OneDirection(incomingMap, inNtoE, inNtoS, inNtoW,
             inEtoN, inEtoW, inEtoS,
             inStoN, inStoW, inStoE,
             inWtoN, inWtoE, inWtoS);
