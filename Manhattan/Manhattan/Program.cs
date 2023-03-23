@@ -4,12 +4,12 @@ class Program
 {
     // Config
     public static Random random = new Random(353230932);
-    public static int numberOfCars = 100000;
-    public static int xLength = 15;
-    public static int yLength = 15;
-    static int networkAmount = 2;
-    public static lightsTactic lightsMode = lightsTactic.adaptive1D;
-    public static int lightInterval = 5;
+    public static int numberOfCars = 20000;
+    public static int xLength = 10;
+    public static int yLength = 10;
+    static int networkAmount = 5;
+    public static lightsTactic lightsMode = lightsTactic.adaptive;
+    public static int lightInterval = 24;
     public static int delay = 3;
     public static int sampleSize = 500;
     static bool printMode = false;
@@ -22,7 +22,7 @@ class Program
     public static int iteration = 0;
     static int networkIteration = 0;
     public static List<Car> cars = new List<Car>();
-    public enum lightsTactic { adaptive, adaptive1D, hardcode1D }
+    public enum lightsTactic { adaptive, adaptive1D, hardcode1D, adaptive1Dcycle}
 
 
     /// <summary>

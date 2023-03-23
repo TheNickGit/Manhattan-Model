@@ -20,7 +20,6 @@ internal class Stats
         using (StreamWriter writer = new StreamWriter(pathCars, true))
             foreach (StatsCarEntry entry in carStats)
             {
-                if (entry.ID < Program.sampleSize)
                     writer.WriteLine(entry.ID + " |  " + entry.travelTime + " |  " + entry.distance);
             }
         using (StreamWriter writer = new StreamWriter(pathCrossings, true))
